@@ -1,0 +1,2 @@
+Sobel edge detection complete.
+total time: 1.08170026 sec
