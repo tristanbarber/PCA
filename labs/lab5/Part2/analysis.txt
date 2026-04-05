@@ -1,0 +1,349 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  us/call  us/call  name    
+ 38.89      0.07     0.07      200   350.00   350.00  amd_2
+ 22.22      0.11     0.04   400000     0.10     0.10  lsolve_numeric
+ 11.11      0.13     0.02      200   100.00   400.00  klu_kernel
+  5.56      0.14     0.01   400000     0.03     0.03  augment
+  5.56      0.15     0.01   400000     0.03     0.03  construct_column
+  5.56      0.16     0.01   400000     0.03     0.03  lpivot
+  5.56      0.17     0.01      200    50.00   400.00  analyze_worker
+  5.56      0.18     0.01      200    50.00    50.00  dfs
+  0.00      0.18     0.00   799800     0.00     0.00  clear_flag
+  0.00      0.18     0.00   400000     0.00     0.00  lsolve_symbolic
+  0.00      0.18     0.00   400000     0.00     0.00  prune
+  0.00      0.18     0.00   399800     0.00     0.00  dfs
+  0.00      0.18     0.00    11400     0.00     0.00  klu_add_size_t
+  0.00      0.18     0.00     5600     0.00     0.00  klu_free
+  0.00      0.18     0.00     5600     0.00     0.00  klu_malloc
+  0.00      0.18     0.00      600     0.00     0.00  klu_mult_size_t
+  0.00      0.18     0.00      200     0.00     0.00  SuiteSparse_realloc
+  0.00      0.18     0.00      200     0.00   350.00  amd_1
+  0.00      0.18     0.00      200     0.00     0.00  amd_aat
+  0.00      0.18     0.00      200     0.00   350.00  amd_order
+  0.00      0.18     0.00      200     0.00     0.00  amd_post_tree
+  0.00      0.18     0.00      200     0.00     0.00  amd_postorder
+  0.00      0.18     0.00      200     0.00     0.00  amd_valid
+  0.00      0.18     0.00      200     0.00    50.00  btf_maxtrans
+  0.00      0.18     0.00      200     0.00   100.00  btf_order
+  0.00      0.18     0.00      200     0.00    50.00  btf_strongcomp
+  0.00      0.18     0.00      200     0.00   400.00  factor2
+  0.00      0.18     0.00      200     0.00     0.00  klu_alloc_symbolic
+  0.00      0.18     0.00      200     0.00   500.00  klu_analyze
+  0.00      0.18     0.00      200     0.00   400.00  klu_factor
+  0.00      0.18     0.00      200     0.00     0.00  klu_free_numeric
+  0.00      0.18     0.00      200     0.00     0.00  klu_free_symbolic
+  0.00      0.18     0.00      200     0.00   400.00  klu_kernel_factor
+  0.00      0.18     0.00      200     0.00     0.00  klu_realloc
+  0.00      0.18     0.00      200     0.00     0.00  klu_scale
+  0.00      0.18     0.00      200     0.00   500.00  order_and_analyze
+  0.00      0.18     0.00        1     0.00     0.00  klu_defaults
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) for 5.56% of 0.18 seconds
+
+index % time    self  children    called     name
+                                                 <spontaneous>
+[1]    100.0    0.00    0.18                 main [1]
+                0.00    0.10     200/200         klu_analyze [2]
+                0.00    0.08     200/200         klu_factor [6]
+                0.00    0.00     200/200         klu_free_numeric [34]
+                0.00    0.00     200/200         klu_free_symbolic [35]
+                0.00    0.00       1/1           klu_defaults [38]
+-----------------------------------------------
+                0.00    0.10     200/200         main [1]
+[2]     55.6    0.00    0.10     200         klu_analyze [2]
+                0.00    0.10     200/200         order_and_analyze [3]
+-----------------------------------------------
+                0.00    0.10     200/200         klu_analyze [2]
+[3]     55.6    0.00    0.10     200         order_and_analyze [3]
+                0.01    0.07     200/200         analyze_worker [4]
+                0.00    0.02     200/200         btf_order [13]
+                0.00    0.00    1400/5600        klu_malloc [26]
+                0.00    0.00    1400/5600        klu_free [25]
+                0.00    0.00     200/200         klu_alloc_symbolic [33]
+-----------------------------------------------
+                0.01    0.07     200/200         order_and_analyze [3]
+[4]     44.4    0.01    0.07     200         analyze_worker [4]
+                0.00    0.07     200/200         amd_order [11]
+-----------------------------------------------
+                0.00    0.08     200/200         klu_factor [6]
+[5]     44.4    0.00    0.08     200         factor2 [5]
+                0.00    0.08     200/200         klu_kernel_factor [8]
+                0.00    0.00     200/200         klu_scale [37]
+-----------------------------------------------
+                0.00    0.08     200/200         main [1]
+[6]     44.4    0.00    0.08     200         klu_factor [6]
+                0.00    0.08     200/200         factor2 [5]
+                0.00    0.00    3000/5600        klu_malloc [26]
+                0.00    0.00     600/600         klu_mult_size_t [27]
+                0.00    0.00     200/11400       klu_add_size_t [24]
+-----------------------------------------------
+                0.02    0.06     200/200         klu_kernel_factor [8]
+[7]     44.4    0.02    0.06     200         klu_kernel [7]
+                0.04    0.00  400000/400000      lsolve_numeric [12]
+                0.01    0.00  400000/400000      construct_column [15]
+                0.01    0.00  400000/400000      lpivot [16]
+                0.00    0.00  400000/400000      lsolve_symbolic [21]
+                0.00    0.00  400000/400000      prune [22]
+                0.00    0.00     200/200         klu_realloc [36]
+-----------------------------------------------
+                0.00    0.08     200/200         factor2 [5]
+[8]     44.4    0.00    0.08     200         klu_kernel_factor [8]
+                0.02    0.06     200/200         klu_kernel [7]
+                0.00    0.00     200/5600        klu_malloc [26]
+-----------------------------------------------
+                0.00    0.07     200/200         amd_order [11]
+[9]     38.9    0.00    0.07     200         amd_1 [9]
+                0.07    0.00     200/200         amd_2 [10]
+-----------------------------------------------
+                0.07    0.00     200/200         amd_1 [9]
+[10]    38.9    0.07    0.00     200         amd_2 [10]
+                0.00    0.00  799800/799800      clear_flag [20]
+                0.00    0.00     200/200         amd_postorder [31]
+-----------------------------------------------
+                0.00    0.07     200/200         analyze_worker [4]
+[11]    38.9    0.00    0.07     200         amd_order [11]
+                0.00    0.07     200/200         amd_1 [9]
+                0.00    0.00     200/200         amd_valid [32]
+                0.00    0.00     200/200         amd_aat [29]
+-----------------------------------------------
+                0.04    0.00  400000/400000      klu_kernel [7]
+[12]    22.2    0.04    0.00  400000         lsolve_numeric [12]
+-----------------------------------------------
+                0.00    0.02     200/200         order_and_analyze [3]
+[13]    11.1    0.00    0.02     200         btf_order [13]
+                0.00    0.01     200/200         btf_maxtrans [17]
+                0.00    0.01     200/200         btf_strongcomp [18]
+-----------------------------------------------
+                0.01    0.00  400000/400000      btf_maxtrans [17]
+[14]     5.6    0.01    0.00  400000         augment [14]
+-----------------------------------------------
+                0.01    0.00  400000/400000      klu_kernel [7]
+[15]     5.6    0.01    0.00  400000         construct_column [15]
+-----------------------------------------------
+                0.01    0.00  400000/400000      klu_kernel [7]
+[16]     5.6    0.01    0.00  400000         lpivot [16]
+-----------------------------------------------
+                0.00    0.01     200/200         btf_order [13]
+[17]     5.6    0.00    0.01     200         btf_maxtrans [17]
+                0.01    0.00  400000/400000      augment [14]
+-----------------------------------------------
+                0.00    0.01     200/200         btf_order [13]
+[18]     5.6    0.00    0.01     200         btf_strongcomp [18]
+                0.01    0.00     200/200         dfs [19]
+-----------------------------------------------
+                0.01    0.00     200/200         btf_strongcomp [18]
+[19]     5.6    0.01    0.00     200         dfs [19]
+-----------------------------------------------
+                0.00    0.00  799800/799800      amd_2 [10]
+[20]     0.0    0.00    0.00  799800         clear_flag [20]
+-----------------------------------------------
+                0.00    0.00  400000/400000      klu_kernel [7]
+[21]     0.0    0.00    0.00  400000         lsolve_symbolic [21]
+                0.00    0.00  399800/399800      dfs [23]
+-----------------------------------------------
+                0.00    0.00  400000/400000      klu_kernel [7]
+[22]     0.0    0.00    0.00  400000         prune [22]
+-----------------------------------------------
+                0.00    0.00  399800/399800      lsolve_symbolic [21]
+[23]     0.0    0.00    0.00  399800         dfs [23]
+-----------------------------------------------
+                0.00    0.00     200/11400       klu_factor [6]
+                0.00    0.00   11200/11400       klu_mult_size_t [27]
+[24]     0.0    0.00    0.00   11400         klu_add_size_t [24]
+-----------------------------------------------
+                0.00    0.00    1000/5600        klu_free_symbolic [35]
+                0.00    0.00    1400/5600        order_and_analyze [3]
+                0.00    0.00    3200/5600        klu_free_numeric [34]
+[25]     0.0    0.00    0.00    5600         klu_free [25]
+-----------------------------------------------
+                0.00    0.00     200/5600        klu_kernel_factor [8]
+                0.00    0.00    1000/5600        klu_alloc_symbolic [33]
+                0.00    0.00    1400/5600        order_and_analyze [3]
+                0.00    0.00    3000/5600        klu_factor [6]
+[26]     0.0    0.00    0.00    5600         klu_malloc [26]
+-----------------------------------------------
+                0.00    0.00     600/600         klu_factor [6]
+[27]     0.0    0.00    0.00     600         klu_mult_size_t [27]
+                0.00    0.00   11200/11400       klu_add_size_t [24]
+-----------------------------------------------
+                0.00    0.00     200/200         klu_realloc [36]
+[28]     0.0    0.00    0.00     200         SuiteSparse_realloc [28]
+-----------------------------------------------
+                0.00    0.00     200/200         amd_order [11]
+[29]     0.0    0.00    0.00     200         amd_aat [29]
+-----------------------------------------------
+                0.00    0.00     200/200         amd_postorder [31]
+[30]     0.0    0.00    0.00     200         amd_post_tree [30]
+-----------------------------------------------
+                0.00    0.00     200/200         amd_2 [10]
+[31]     0.0    0.00    0.00     200         amd_postorder [31]
+                0.00    0.00     200/200         amd_post_tree [30]
+-----------------------------------------------
+                0.00    0.00     200/200         amd_order [11]
+[32]     0.0    0.00    0.00     200         amd_valid [32]
+-----------------------------------------------
+                0.00    0.00     200/200         order_and_analyze [3]
+[33]     0.0    0.00    0.00     200         klu_alloc_symbolic [33]
+                0.00    0.00    1000/5600        klu_malloc [26]
+-----------------------------------------------
+                0.00    0.00     200/200         main [1]
+[34]     0.0    0.00    0.00     200         klu_free_numeric [34]
+                0.00    0.00    3200/5600        klu_free [25]
+-----------------------------------------------
+                0.00    0.00     200/200         main [1]
+[35]     0.0    0.00    0.00     200         klu_free_symbolic [35]
+                0.00    0.00    1000/5600        klu_free [25]
+-----------------------------------------------
+                0.00    0.00     200/200         klu_kernel [7]
+[36]     0.0    0.00    0.00     200         klu_realloc [36]
+                0.00    0.00     200/200         SuiteSparse_realloc [28]
+-----------------------------------------------
+                0.00    0.00     200/200         factor2 [5]
+[37]     0.0    0.00    0.00     200         klu_scale [37]
+-----------------------------------------------
+                0.00    0.00       1/1           main [1]
+[38]     0.0    0.00    0.00       1         klu_defaults [38]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [28] SuiteSparse_realloc    [20] clear_flag              [7] klu_kernel
+   [9] amd_1                  [15] construct_column        [8] klu_kernel_factor
+  [10] amd_2                  [23] dfs                    [26] klu_malloc
+  [29] amd_aat                [19] dfs                    [27] klu_mult_size_t
+  [11] amd_order               [5] factor2                [36] klu_realloc
+  [30] amd_post_tree          [24] klu_add_size_t         [37] klu_scale
+  [31] amd_postorder          [33] klu_alloc_symbolic     [16] lpivot
+  [32] amd_valid               [2] klu_analyze            [12] lsolve_numeric
+   [4] analyze_worker         [38] klu_defaults           [21] lsolve_symbolic
+  [14] augment                 [6] klu_factor              [3] order_and_analyze
+  [17] btf_maxtrans           [25] klu_free               [22] prune
+  [13] btf_order              [34] klu_free_numeric
+  [18] btf_strongcomp         [35] klu_free_symbolic
