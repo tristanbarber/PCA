@@ -1,0 +1,73 @@
+Simple RC test (Tree)
+
+V1 1 0 DC 0 SIN (0 1 1K 0 0)
+R1 1 2 1
+C1 2 0 1e-9
+
+* Fan-out tree
+X1 2 3 rctree_parallel
+
+.subckt rc 1 2
+R 1 2 1
+C 2 0 1e-9
+.ends
+
+* Base building block (10 elements)
+.subckt rc10 1 11
+X1 1 2 rc
+X2 2 3 rc
+X3 3 4 rc
+X4 4 5 rc
+X5 5 6 rc
+X6 6 7 rc
+X7 7 8 rc
+X8 8 9 rc
+X9 9 10 rc
+X10 10 11 rc
+.ends
+
+* 100 elements
+.subckt rc100 1 11
+X1 1 2 rc10
+X2 2 3 rc10
+X3 3 4 rc10
+X4 4 5 rc10
+X5 5 6 rc10
+X6 6 7 rc10
+X7 7 8 rc10
+X8 8 9 rc10
+X9 9 10 rc10
+X10 10 11 rc10
+.ends
+
+* 1000 elements
+.subckt rc1000 1 11
+X1 1 2 rc100
+X2 2 3 rc100
+X3 3 4 rc100
+X4 4 5 rc100
+X5 5 6 rc100
+X6 6 7 rc100
+X7 7 8 rc100
+X8 8 9 rc100
+X9 9 10 rc100
+X10 10 11 rc100
+.ends
+
+* -------- PARALLEL TREE --------
+.subckt rctree_parallel 1 100
+
+X1 1 11 rc1000
+X2 1 21 rc1000
+X3 1 31 rc1000
+X4 1 41 rc1000
+X5 1 51 rc1000
+X6 1 61 rc1000
+X7 1 71 rc1000
+X8 1 81 rc1000
+
+.ends
+
+.tran 0.1u 1
+.print tran V(2)
+.end
