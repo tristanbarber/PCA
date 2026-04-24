@@ -1,0 +1,86 @@
+==PROF== Connected to process 1956256 (/blue/eel6763/tbarber/lab6/Part2/sobel_cuda_shared)
+==PROF== Profiling "sobel_1d_shared" - 0: 0%....50%....100% - 8 passes
+  grid=(25000,1,1)  block=(1000,1,1)
+
+
+Total program wall-clock time: 3.16070513 sec
+
+==PROF== Disconnected from process 1956256
+[1956256] sobel_cuda_shared@127.0.0.1
+  sobel_1d_shared(const unsigned char *, unsigned char *, int, int) (25000, 1, 1)x(1000, 1, 1), Device 0, CC 8.9, Invocations 1
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ----------- ------------ ------------ ------------
+    Metric Name             Metric Unit      Minimum      Maximum      Average
+    ----------------------- ----------- ------------ ------------ ------------
+    DRAM Frequency                  Ghz         6.24         6.24         6.24
+    SM Frequency                    Mhz       794.94       794.94       794.94
+    Elapsed Cycles                cycle 1,025,011.00 1,025,011.00 1,025,011.00
+    Memory Throughput                 %        44.14        44.14        44.14
+    DRAM Throughput                   %         9.69         9.69         9.69
+    Duration                         ms         1.29         1.29         1.29
+    L1/TEX Cache Throughput           %        48.09        48.09        48.09
+    L2 Cache Throughput               %         8.73         8.73         8.73
+    SM Active Cycles              cycle   939,789.29   939,789.29   939,789.29
+    Compute (SM) Throughput           %        44.14        44.14        44.14
+    ----------------------- ----------- ------------ ------------ ------------
+
+    Section: GPU and Memory Workload Distribution
+    -------------------------- ----------- -------------- -------------- --------------
+    Metric Name                Metric Unit        Minimum        Maximum        Average
+    -------------------------- ----------- -------------- -------------- --------------
+    Average DRAM Active Cycles       cycle     779,965.33     779,965.33     779,965.33
+    Total DRAM Elapsed Cycles        cycle  48,307,200.00  48,307,200.00  48,307,200.00
+    Average L1 Active Cycles         cycle     939,789.29     939,789.29     939,789.29
+    Total L1 Elapsed Cycles          cycle  59,389,474.00  59,389,474.00  59,389,474.00
+    Average L2 Active Cycles         cycle     971,064.83     971,064.83     971,064.83
+    Total L2 Elapsed Cycles          cycle  27,399,432.00  27,399,432.00  27,399,432.00
+    Average SM Active Cycles         cycle     939,789.29     939,789.29     939,789.29
+    Total SM Elapsed Cycles          cycle  59,389,474.00  59,389,474.00  59,389,474.00
+    Average SMSP Active Cycles       cycle     927,007.37     927,007.37     927,007.37
+    Total SMSP Elapsed Cycles        cycle 237,557,896.00 237,557,896.00 237,557,896.00
+    -------------------------- ----------- -------------- -------------- --------------
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ------------- ------------- -------------
+    Metric Name                          Metric Unit       Minimum       Maximum       Average
+    -------------------------------- --------------- ------------- ------------- -------------
+    Block Size                                            1,000.00      1,000.00      1,000.00
+    Grid Size                                            25,000.00     25,000.00     25,000.00
+    Registers Per Thread             register/thread         20.00         20.00         20.00
+    Shared Memory Configuration Size           Kbyte          8.19          8.19          8.19
+    Driver Shared Memory Per Block       Kbyte/block          1.02          1.02          1.02
+    Dynamic Shared Memory Per Block      Kbyte/block          3.01          3.01          3.01
+    Static Shared Memory Per Block        byte/block          0.00          0.00          0.00
+    # SMs                                         SM         58.00         58.00         58.00
+    Stack Size                                            1,024.00      1,024.00      1,024.00
+    Threads                                   thread 25,000,000.00 25,000,000.00 25,000,000.00
+    # TPCs                                                   29.00         29.00         29.00
+    Uses Green Context                                        0.00          0.00          0.00
+    Waves Per SM                                            431.03        431.03        431.03
+    -------------------------------- --------------- ------------- ------------- -------------
+
+    Section: Occupancy
+    ------------------------------- ----------- ------- ------- -------
+    Metric Name                     Metric Unit Minimum Maximum Average
+    ------------------------------- ----------- ------- ------- -------
+    Block Limit SM                        block   24.00   24.00   24.00
+    Block Limit Registers                 block    2.00    2.00    2.00
+    Block Limit Shared Mem                block    2.00    2.00    2.00
+    Block Limit Warps                     block    1.00    1.00    1.00
+    Theoretical Active Warps per SM        warp   32.00   32.00   32.00
+    Theoretical Occupancy                     %   66.67   66.67   66.67
+    Achieved Occupancy                        %   64.60   64.60   64.60
+    Achieved Active Warps Per SM           warp   31.01   31.01   31.01
+    ------------------------------- ----------- ------- ------- -------
+
+  Note: The shown averages are calculated as the arithmetic mean of the metric values after the evaluation of the    
+  metrics for each individual kernel launch.                                                                         
+  If aggregating across varying launch configurations (like shared memory, cache config settings), the arithmetic    
+  mean can be misleading and looking at the individual results is recommended instead.                               
+  This output mode is backwards compatible to the per-kernel summary output of nvprof                                
+
+  grid=(25000,1,1)  block=(1000,1,1)
+
+
+Total program wall-clock time: 2.06248081 sec
+
