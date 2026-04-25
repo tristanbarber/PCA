@@ -1,0 +1,1103 @@
+Test project /home/tbarber/EEL6763/xyce_testing
+        Start  118: ACSENS/ac-sens-current-obj.cir.sh
+  1/481 Test  #118: ACSENS/ac-sens-current-obj.cir.sh .............................   Passed    0.75 sec
+        Start  119: ACSENS/ac-sens-mult-obj-def.cir.sh
+  2/481 Test  #119: ACSENS/ac-sens-mult-obj-def.cir.sh ............................   Passed    0.65 sec
+        Start  120: ACSENS/lowpass.cir.sh
+  3/481 Test  #120: ACSENS/lowpass.cir.sh .........................................   Passed    0.34 sec
+        Start  121: ACSENS/lowpass_forceDeviceFD.cir.sh
+  4/481 Test  #121: ACSENS/lowpass_forceDeviceFD.cir.sh ...........................   Passed    0.61 sec
+        Start  122: ACSENS/lowpass_forceDeviceFD2.cir.sh
+  5/481 Test  #122: ACSENS/lowpass_forceDeviceFD2.cir.sh ..........................   Passed    0.58 sec
+        Start  123: ACSENS/lowpass_forceDeviceFD3.cir.sh
+  6/481 Test  #123: ACSENS/lowpass_forceDeviceFD3.cir.sh ..........................   Passed    0.60 sec
+        Start  124: ACSENS/lowpass_param.cir.sh
+  7/481 Test  #124: ACSENS/lowpass_param.cir.sh ...................................   Passed    0.34 sec
+        Start  125: ACSENS/bsim3/gain-stage.cir.sh
+  8/481 Test  #125: ACSENS/bsim3/gain-stage.cir.sh ................................   Passed    0.60 sec
+        Start  126: ACSENS/bsim3/op-amp.cir.sh
+  9/481 Test  #126: ACSENS/bsim3/op-amp.cir.sh ....................................   Passed    0.60 sec
+        Start  127: ACSENS/bsim3/op-amp_expr.cir.sh
+ 10/481 Test  #127: ACSENS/bsim3/op-amp_expr.cir.sh ...............................   Passed    0.64 sec
+        Start  128: ACSENS/bsim3/op-amp_param.cir.sh
+ 11/481 Test  #128: ACSENS/bsim3/op-amp_param.cir.sh ..............................   Passed    0.63 sec
+        Start  129: ACSENS/bsim3/op-amp_unique.cir.sh
+ 12/481 Test  #129: ACSENS/bsim3/op-amp_unique.cir.sh .............................   Passed    0.63 sec
+        Start  137: ACtests/SANDLER7/sandler7.cir.sh
+ 13/481 Test  #137: ACtests/SANDLER7/sandler7.cir.sh ..............................   Passed    0.31 sec
+        Start  138: ACtests/SANDLER8/sandler8.cir.sh
+ 14/481 Test  #138: ACtests/SANDLER8/sandler8.cir.sh ..............................   Passed    0.31 sec
+        Start  139: ACtests/SANDLER9/sandler9.cir.sh
+ 15/481 Test  #139: ACtests/SANDLER9/sandler9.cir.sh ..............................   Passed    0.32 sec
+        Start  162: B4SOI/test1.cir
+ 16/481 Test  #162: B4SOI/test1.cir ...............................................   Passed    0.38 sec
+        Start  166: B4SOI/test2.cir
+ 17/481 Test  #166: B4SOI/test2.cir ...............................................   Passed    0.30 sec
+        Start  168: B4SOI/test3.cir
+ 18/481 Test  #168: B4SOI/test3.cir ...............................................   Passed    0.29 sec
+        Start  170: B4SOI/test4.cir
+ 19/481 Test  #170: B4SOI/test4.cir ...............................................   Passed    0.29 sec
+        Start  172: B4SOI/test5.cir
+ 20/481 Test  #172: B4SOI/test5.cir ...............................................   Passed    0.31 sec
+        Start  174: B4SOI/test6.cir
+ 21/481 Test  #174: B4SOI/test6.cir ...............................................   Passed    0.32 sec
+        Start  176: B4SOI/test7.cir
+ 22/481 Test  #176: B4SOI/test7.cir ...............................................   Passed    0.29 sec
+        Start  178: B4SOI/test8.cir
+ 23/481 Test  #178: B4SOI/test8.cir ...............................................   Passed    0.29 sec
+        Start  188: B4SOI_450/test1.cir
+ 24/481 Test  #188: B4SOI_450/test1.cir ...........................................   Passed    0.37 sec
+        Start  192: B4SOI_450/test2.cir
+ 25/481 Test  #192: B4SOI_450/test2.cir ...........................................   Passed    0.30 sec
+        Start  194: B4SOI_450/test3.cir
+ 26/481 Test  #194: B4SOI_450/test3.cir ...........................................   Passed    0.29 sec
+        Start  196: B4SOI_450/test4.cir
+ 27/481 Test  #196: B4SOI_450/test4.cir ...........................................   Passed    0.28 sec
+        Start  198: B4SOI_450/test5.cir
+ 28/481 Test  #198: B4SOI_450/test5.cir ...........................................   Passed    0.31 sec
+        Start  200: B4SOI_450/test6.cir
+ 29/481 Test  #200: B4SOI_450/test6.cir ...........................................   Passed    0.31 sec
+        Start  202: B4SOI_450/test7.cir
+ 30/481 Test  #202: B4SOI_450/test7.cir ...........................................   Passed    0.28 sec
+        Start  204: B4SOI_450/test8.cir
+ 31/481 Test  #204: B4SOI_450/test8.cir ...........................................   Passed    0.27 sec
+        Start  214: B4SOI_461/test1.cir
+ 32/481 Test  #214: B4SOI_461/test1.cir ...........................................   Passed    0.38 sec
+        Start  218: B4SOI_461/test2.cir
+ 33/481 Test  #218: B4SOI_461/test2.cir ...........................................   Passed    0.30 sec
+        Start  220: B4SOI_461/test3.cir
+ 34/481 Test  #220: B4SOI_461/test3.cir ...........................................   Passed    0.29 sec
+        Start  222: B4SOI_461/test4.cir
+ 35/481 Test  #222: B4SOI_461/test4.cir ...........................................   Passed    0.29 sec
+        Start  224: B4SOI_461/test5.cir
+ 36/481 Test  #224: B4SOI_461/test5.cir ...........................................   Passed    0.31 sec
+        Start  226: B4SOI_461/test6.cir
+ 37/481 Test  #226: B4SOI_461/test6.cir ...........................................   Passed    0.31 sec
+        Start  228: B4SOI_461/test7.cir
+ 38/481 Test  #228: B4SOI_461/test7.cir ...........................................   Passed    0.28 sec
+        Start  230: B4SOI_461/test8.cir
+ 39/481 Test  #230: B4SOI_461/test8.cir ...........................................   Passed    0.29 sec
+        Start  246: BSIM3_GM/nmosGm1.cir
+ 40/481 Test  #246: BSIM3_GM/nmosGm1.cir ..........................................   Passed    0.30 sec
+        Start  282: BSIM4_GM/nmosGm1.cir
+ 41/481 Test  #282: BSIM4_GM/nmosGm1.cir ..........................................   Passed    0.30 sec
+        Start  247: BSIM3_GM/nmosGm1.cir.verify
+ 42/481 Test  #247: BSIM3_GM/nmosGm1.cir.verify ...................................   Passed    0.06 sec
+        Start  248: BSIM3_GM/nmosGm1_rev.cir
+ 43/481 Test  #248: BSIM3_GM/nmosGm1_rev.cir ......................................   Passed    0.29 sec
+        Start  284: BSIM4_GM/nmosGm1_rev.cir
+ 44/481 Test  #284: BSIM4_GM/nmosGm1_rev.cir ......................................   Passed    0.29 sec
+        Start  249: BSIM3_GM/nmosGm1_rev.cir.verify
+ 45/481 Test  #249: BSIM3_GM/nmosGm1_rev.cir.verify ...............................   Passed    0.04 sec
+        Start  250: BSIM3_GM/pmosGm1.cir
+ 46/481 Test  #250: BSIM3_GM/pmosGm1.cir ..........................................   Passed    0.29 sec
+        Start  286: BSIM4_GM/pmosGm1.cir
+ 47/481 Test  #286: BSIM4_GM/pmosGm1.cir ..........................................   Passed    0.29 sec
+        Start  251: BSIM3_GM/pmosGm1.cir.verify
+ 48/481 Test  #251: BSIM3_GM/pmosGm1.cir.verify ...................................   Passed    0.04 sec
+        Start  252: BSIM3_GM/pmosGm1_rev.cir
+ 49/481 Test  #252: BSIM3_GM/pmosGm1_rev.cir ......................................   Passed    0.29 sec
+        Start  288: BSIM4_GM/pmosGm1_rev.cir
+ 50/481 Test  #288: BSIM4_GM/pmosGm1_rev.cir ......................................   Passed    0.31 sec
+        Start  253: BSIM3_GM/pmosGm1_rev.cir.verify
+ 51/481 Test  #253: BSIM3_GM/pmosGm1_rev.cir.verify ...............................   Passed    0.04 sec
+        Start  283: BSIM4_GM/nmosGm1.cir.verify
+ 52/481 Test  #283: BSIM4_GM/nmosGm1.cir.verify ...................................   Passed    0.04 sec
+        Start  285: BSIM4_GM/nmosGm1_rev.cir.verify
+ 53/481 Test  #285: BSIM4_GM/nmosGm1_rev.cir.verify ...............................   Passed    0.03 sec
+        Start  287: BSIM4_GM/pmosGm1.cir.verify
+ 54/481 Test  #287: BSIM4_GM/pmosGm1.cir.verify ...................................   Passed    0.03 sec
+        Start  289: BSIM4_GM/pmosGm1_rev.cir.verify
+ 55/481 Test  #289: BSIM4_GM/pmosGm1_rev.cir.verify ...............................   Passed    0.04 sec
+        Start  290: BSIM4_Versioning/bsim4_test1.cir.sh
+ 56/481 Test  #290: BSIM4_Versioning/bsim4_test1.cir.sh ...........................   Passed    0.38 sec
+        Start  291: BSIM4_Versioning/inverter_transient_xyce.cir.sh
+ 57/481 Test  #291: BSIM4_Versioning/inverter_transient_xyce.cir.sh ...............   Passed    0.74 sec
+        Start  348: BSIM4_v4p7/gain-stage1-bsim4p7.cir.sh
+ 58/481 Test  #348: BSIM4_v4p7/gain-stage1-bsim4p7.cir.sh .........................   Passed    0.36 sec
+        Start  349: BSIM4_v4p7/test1.cir
+ 59/481 Test  #349: BSIM4_v4p7/test1.cir ..........................................   Passed    0.28 sec
+        Start  377: BSIM4_v4p82/test1.cir
+ 60/481 Test  #377: BSIM4_v4p82/test1.cir .........................................   Passed    0.30 sec
+        Start 1052: Certification_Tests/BUG_794_SON/test1.cir
+ 61/481 Test #1052: Certification_Tests/BUG_794_SON/test1.cir .....................   Passed    0.28 sec
+        Start 1196: Certification_Tests/ISSUE_405/test1.cir
+ 62/481 Test #1196: Certification_Tests/ISSUE_405/test1.cir .......................   Passed    0.27 sec
+        Start 3065: TEST1/test1.cir
+ 63/481 Test #3065: TEST1/test1.cir ...............................................   Passed    0.30 sec
+        Start  350: BSIM4_v4p7/test1.cir.verify
+ 64/481 Test  #350: BSIM4_v4p7/test1.cir.verify ...................................   Passed    0.04 sec
+        Start  351: BSIM4_v4p7/test10.cir
+ 65/481 Test  #351: BSIM4_v4p7/test10.cir .........................................   Passed    0.29 sec
+        Start  379: BSIM4_v4p82/test10.cir
+ 66/481 Test  #379: BSIM4_v4p82/test10.cir ........................................   Passed    0.30 sec
+        Start 3067: TEST10/test10.cir
+ 67/481 Test #3067: TEST10/test10.cir .............................................   Passed    0.30 sec
+        Start  352: BSIM4_v4p7/test10.cir.verify
+ 68/481 Test  #352: BSIM4_v4p7/test10.cir.verify ..................................   Passed    0.04 sec
+        Start  353: BSIM4_v4p7/test11.cir
+ 69/481 Test  #353: BSIM4_v4p7/test11.cir .........................................   Passed    0.29 sec
+        Start  381: BSIM4_v4p82/test11.cir
+ 70/481 Test  #381: BSIM4_v4p82/test11.cir ........................................   Passed    0.30 sec
+        Start 3069: TEST11/test11.cir
+ 71/481 Test #3069: TEST11/test11.cir .............................................   Passed    0.28 sec
+        Start  354: BSIM4_v4p7/test11.cir.verify
+ 72/481 Test  #354: BSIM4_v4p7/test11.cir.verify ..................................   Passed    0.04 sec
+        Start  355: BSIM4_v4p7/test12.cir
+ 73/481 Test  #355: BSIM4_v4p7/test12.cir .........................................   Passed    0.29 sec
+        Start  383: BSIM4_v4p82/test12.cir
+ 74/481 Test  #383: BSIM4_v4p82/test12.cir ........................................   Passed    0.30 sec
+        Start 3071: TEST12/test12.cir
+ 75/481 Test #3071: TEST12/test12.cir .............................................   Passed    0.29 sec
+        Start  356: BSIM4_v4p7/test12.cir.verify
+ 76/481 Test  #356: BSIM4_v4p7/test12.cir.verify ..................................   Passed    0.04 sec
+        Start  357: BSIM4_v4p7/test13.cir
+ 77/481 Test  #357: BSIM4_v4p7/test13.cir .........................................   Passed    0.30 sec
+        Start  385: BSIM4_v4p82/test13.cir
+ 78/481 Test  #385: BSIM4_v4p82/test13.cir ........................................   Passed    0.30 sec
+        Start 3073: TEST13/test13.cir
+ 79/481 Test #3073: TEST13/test13.cir .............................................   Passed    0.29 sec
+        Start  358: BSIM4_v4p7/test13.cir.verify
+ 80/481 Test  #358: BSIM4_v4p7/test13.cir.verify ..................................   Passed    0.04 sec
+        Start  359: BSIM4_v4p7/test14.cir
+ 81/481 Test  #359: BSIM4_v4p7/test14.cir .........................................   Passed    0.29 sec
+        Start  387: BSIM4_v4p82/test14.cir
+ 82/481 Test  #387: BSIM4_v4p82/test14.cir ........................................   Passed    0.30 sec
+        Start 3075: TEST14/test14.cir
+ 83/481 Test #3075: TEST14/test14.cir .............................................   Passed    0.30 sec
+        Start  360: BSIM4_v4p7/test14.cir.verify
+ 84/481 Test  #360: BSIM4_v4p7/test14.cir.verify ..................................   Passed    0.04 sec
+        Start  361: BSIM4_v4p7/test2.cir
+ 85/481 Test  #361: BSIM4_v4p7/test2.cir ..........................................   Passed    0.29 sec
+        Start  389: BSIM4_v4p82/test2.cir
+ 86/481 Test  #389: BSIM4_v4p82/test2.cir .........................................   Passed    0.30 sec
+        Start  517: COMPLEX_NUM/test2.cir
+ 87/481 Test  #517: COMPLEX_NUM/test2.cir .........................................   Passed    0.26 sec
+        Start 1054: Certification_Tests/BUG_794_SON/test2.cir
+ 88/481 Test #1054: Certification_Tests/BUG_794_SON/test2.cir .....................   Passed    0.27 sec
+        Start 1198: Certification_Tests/ISSUE_405/test2.cir
+ 89/481 Test #1198: Certification_Tests/ISSUE_405/test2.cir .......................   Passed    0.26 sec
+        Start 3077: TEST2/test2.cir
+ 90/481 Test #3077: TEST2/test2.cir ...............................................   Passed    0.30 sec
+        Start  362: BSIM4_v4p7/test2.cir.verify
+ 91/481 Test  #362: BSIM4_v4p7/test2.cir.verify ...................................   Passed    0.04 sec
+        Start  363: BSIM4_v4p7/test3.cir
+ 92/481 Test  #363: BSIM4_v4p7/test3.cir ..........................................   Passed    0.28 sec
+        Start  391: BSIM4_v4p82/test3.cir
+ 93/481 Test  #391: BSIM4_v4p82/test3.cir .........................................   Passed    0.30 sec
+        Start  572: Certification_Tests/BUG_1144_SON/test3.cir
+ 94/481 Test  #572: Certification_Tests/BUG_1144_SON/test3.cir ....................   Passed    0.28 sec
+        Start 1200: Certification_Tests/ISSUE_405/test3.cir
+ 95/481 Test #1200: Certification_Tests/ISSUE_405/test3.cir .......................   Passed    0.26 sec
+        Start 3079: TEST3/test3.cir
+ 96/481 Test #3079: TEST3/test3.cir ...............................................   Passed    0.31 sec
+        Start  364: BSIM4_v4p7/test3.cir.verify
+ 97/481 Test  #364: BSIM4_v4p7/test3.cir.verify ...................................   Passed    0.04 sec
+        Start  365: BSIM4_v4p7/test4.cir
+ 98/481 Test  #365: BSIM4_v4p7/test4.cir ..........................................   Passed    0.28 sec
+        Start  393: BSIM4_v4p82/test4.cir
+ 99/481 Test  #393: BSIM4_v4p82/test4.cir .........................................   Passed    0.28 sec
+        Start 3081: TEST4/test4.cir
+100/481 Test #3081: TEST4/test4.cir ...............................................   Passed    0.29 sec
+        Start  366: BSIM4_v4p7/test4.cir.verify
+101/481 Test  #366: BSIM4_v4p7/test4.cir.verify ...................................   Passed    0.03 sec
+        Start  367: BSIM4_v4p7/test5.cir
+102/481 Test  #367: BSIM4_v4p7/test5.cir ..........................................   Passed    0.29 sec
+        Start  395: BSIM4_v4p82/test5.cir
+103/481 Test  #395: BSIM4_v4p82/test5.cir .........................................   Passed    0.30 sec
+        Start 3083: TEST5/test5.cir
+104/481 Test #3083: TEST5/test5.cir ...............................................   Passed    0.29 sec
+        Start  368: BSIM4_v4p7/test5.cir.verify
+105/481 Test  #368: BSIM4_v4p7/test5.cir.verify ...................................   Passed    0.04 sec
+        Start  369: BSIM4_v4p7/test6.cir
+106/481 Test  #369: BSIM4_v4p7/test6.cir ..........................................   Passed    0.28 sec
+        Start  397: BSIM4_v4p82/test6.cir
+107/481 Test  #397: BSIM4_v4p82/test6.cir .........................................   Passed    0.27 sec
+        Start 3085: TEST6/test6.cir
+108/481 Test #3085: TEST6/test6.cir ...............................................   Passed    0.29 sec
+        Start  370: BSIM4_v4p7/test6.cir.verify
+109/481 Test  #370: BSIM4_v4p7/test6.cir.verify ...................................   Passed    0.03 sec
+        Start  371: BSIM4_v4p7/test7.cir
+110/481 Test  #371: BSIM4_v4p7/test7.cir ..........................................   Passed    0.30 sec
+        Start  399: BSIM4_v4p82/test7.cir
+111/481 Test  #399: BSIM4_v4p82/test7.cir .........................................   Passed    0.29 sec
+        Start 3087: TEST7/test7.cir
+112/481 Test #3087: TEST7/test7.cir ...............................................   Passed    0.30 sec
+        Start  372: BSIM4_v4p7/test7.cir.verify
+113/481 Test  #372: BSIM4_v4p7/test7.cir.verify ...................................   Passed    0.04 sec
+        Start  373: BSIM4_v4p7/test8.cir
+114/481 Test  #373: BSIM4_v4p7/test8.cir ..........................................   Passed    0.28 sec
+        Start  401: BSIM4_v4p82/test8.cir
+115/481 Test  #401: BSIM4_v4p82/test8.cir .........................................   Passed    0.30 sec
+        Start 3089: TEST8/test8.cir
+116/481 Test #3089: TEST8/test8.cir ...............................................   Passed    0.30 sec
+        Start  374: BSIM4_v4p7/test8.cir.verify
+117/481 Test  #374: BSIM4_v4p7/test8.cir.verify ...................................   Passed    0.04 sec
+        Start  375: BSIM4_v4p7/test9.cir
+118/481 Test  #375: BSIM4_v4p7/test9.cir ..........................................   Passed    0.29 sec
+        Start  403: BSIM4_v4p82/test9.cir
+119/481 Test  #403: BSIM4_v4p82/test9.cir .........................................   Passed    0.29 sec
+        Start 3091: TEST9/test9.cir
+120/481 Test #3091: TEST9/test9.cir ...............................................   Passed    0.30 sec
+        Start  376: BSIM4_v4p7/test9.cir.verify
+121/481 Test  #376: BSIM4_v4p7/test9.cir.verify ...................................   Passed    0.04 sec
+        Start  378: BSIM4_v4p82/test1.cir.verify
+122/481 Test  #378: BSIM4_v4p82/test1.cir.verify ..................................   Passed    0.04 sec
+        Start  380: BSIM4_v4p82/test10.cir.verify
+123/481 Test  #380: BSIM4_v4p82/test10.cir.verify .................................   Passed    0.04 sec
+        Start  382: BSIM4_v4p82/test11.cir.verify
+124/481 Test  #382: BSIM4_v4p82/test11.cir.verify .................................   Passed    0.03 sec
+        Start  384: BSIM4_v4p82/test12.cir.verify
+125/481 Test  #384: BSIM4_v4p82/test12.cir.verify .................................   Passed    0.04 sec
+        Start  386: BSIM4_v4p82/test13.cir.verify
+126/481 Test  #386: BSIM4_v4p82/test13.cir.verify .................................   Passed    0.04 sec
+        Start  388: BSIM4_v4p82/test14.cir.verify
+127/481 Test  #388: BSIM4_v4p82/test14.cir.verify .................................   Passed    0.03 sec
+        Start  390: BSIM4_v4p82/test2.cir.verify
+128/481 Test  #390: BSIM4_v4p82/test2.cir.verify ..................................   Passed    0.03 sec
+        Start  392: BSIM4_v4p82/test3.cir.verify
+129/481 Test  #392: BSIM4_v4p82/test3.cir.verify ..................................   Passed    0.04 sec
+        Start  394: BSIM4_v4p82/test4.cir.verify
+130/481 Test  #394: BSIM4_v4p82/test4.cir.verify ..................................   Passed    0.03 sec
+        Start  396: BSIM4_v4p82/test5.cir.verify
+131/481 Test  #396: BSIM4_v4p82/test5.cir.verify ..................................   Passed    0.03 sec
+        Start  398: BSIM4_v4p82/test6.cir.verify
+132/481 Test  #398: BSIM4_v4p82/test6.cir.verify ..................................   Passed    0.03 sec
+        Start  400: BSIM4_v4p82/test7.cir.verify
+133/481 Test  #400: BSIM4_v4p82/test7.cir.verify ..................................   Passed    0.04 sec
+        Start  402: BSIM4_v4p82/test8.cir.verify
+134/481 Test  #402: BSIM4_v4p82/test8.cir.verify ..................................   Passed    0.03 sec
+        Start  404: BSIM4_v4p82/test9.cir.verify
+135/481 Test  #404: BSIM4_v4p82/test9.cir.verify ..................................   Passed    0.03 sec
+        Start  405: BSIM6/bsim6_nmos_outvars.cir
+136/481 Test  #405: BSIM6/bsim6_nmos_outvars.cir ..................................   Passed    0.42 sec
+        Start  406: BSIM6/bsim6_nmos_outvars.cir.verify
+137/481 Test  #406: BSIM6/bsim6_nmos_outvars.cir.verify ...........................   Passed    0.07 sec
+        Start  407: BSIM6/bsim6_pmos_outvars.cir
+138/481 Test  #407: BSIM6/bsim6_pmos_outvars.cir ..................................   Passed    0.34 sec
+        Start  408: BSIM6/bsim6_pmos_outvars.cir.verify
+139/481 Test  #408: BSIM6/bsim6_pmos_outvars.cir.verify ...........................   Passed    0.05 sec
+        Start  409: BSIM6/gummel_nmos_xyce.cir
+140/481 Test  #409: BSIM6/gummel_nmos_xyce.cir ....................................   Passed    0.37 sec
+        Start  410: BSIM6/gummel_nmos_xyce.cir.verify
+141/481 Test  #410: BSIM6/gummel_nmos_xyce.cir.verify .............................   Passed    0.05 sec
+        Start  411: BSIM6/gummel_pmos_xyce.cir
+142/481 Test  #411: BSIM6/gummel_pmos_xyce.cir ....................................   Passed    0.32 sec
+        Start  412: BSIM6/gummel_pmos_xyce.cir.verify
+143/481 Test  #412: BSIM6/gummel_pmos_xyce.cir.verify .............................   Passed    0.04 sec
+        Start  413: BSIM6/idvd_nmos_xyce.cir
+144/481 Test  #413: BSIM6/idvd_nmos_xyce.cir ......................................   Passed    0.30 sec
+        Start  414: BSIM6/idvd_nmos_xyce.cir.verify
+145/481 Test  #414: BSIM6/idvd_nmos_xyce.cir.verify ...............................   Passed    0.04 sec
+        Start  415: BSIM6/idvd_pmos_xyce.cir
+146/481 Test  #415: BSIM6/idvd_pmos_xyce.cir ......................................   Passed    0.31 sec
+        Start  416: BSIM6/idvd_pmos_xyce.cir.verify
+147/481 Test  #416: BSIM6/idvd_pmos_xyce.cir.verify ...............................   Passed    0.04 sec
+        Start  417: BSIM6/idvg_nmos_xyce.cir
+148/481 Test  #417: BSIM6/idvg_nmos_xyce.cir ......................................   Passed    0.36 sec
+        Start  418: BSIM6/idvg_nmos_xyce.cir.verify
+149/481 Test  #418: BSIM6/idvg_nmos_xyce.cir.verify ...............................   Passed    0.05 sec
+        Start  419: BSIM6/idvg_pmos_xyce.cir
+150/481 Test  #419: BSIM6/idvg_pmos_xyce.cir ......................................   Passed    0.35 sec
+        Start  420: BSIM6/idvg_pmos_xyce.cir.verify
+151/481 Test  #420: BSIM6/idvg_pmos_xyce.cir.verify ...............................   Passed    0.05 sec
+        Start  421: BSIM6/inverter_transient_xyce.cir
+152/481 Test  #421: BSIM6/inverter_transient_xyce.cir .............................   Passed    0.51 sec
+        Start 1071: Certification_Tests/BUG_807_SON/inverter_transient_xyce.cir
+153/481 Test #1071: Certification_Tests/BUG_807_SON/inverter_transient_xyce.cir ...   Passed    0.75 sec
+        Start  422: BSIM6/inverter_transient_xyce.cir.verify
+154/481 Test  #422: BSIM6/inverter_transient_xyce.cir.verify ......................   Passed    0.05 sec
+        Start  423: BSIM6/ringosc_17_xyce.cir.sh
+155/481 Test  #423: BSIM6/ringosc_17_xyce.cir.sh ..................................   Passed    2.71 sec
+        Start  425: BSIMCMG/gummel_n.cir
+156/481 Test  #425: BSIMCMG/gummel_n.cir ..........................................   Passed    0.37 sec
+        Start  434: BSIMCMG_108/gummel_n.cir
+157/481 Test  #434: BSIMCMG_108/gummel_n.cir ......................................   Passed    0.38 sec
+        Start  449: BSIMCMG_110/gummel_n.cir
+158/481 Test  #449: BSIMCMG_110/gummel_n.cir ......................................   Passed    0.37 sec
+        Start  460: BSIMCMG_111/gummel_n.cir
+159/481 Test  #460: BSIMCMG_111/gummel_n.cir ......................................   Passed    0.38 sec
+        Start  426: BSIMCMG/gummel_n.cir.verify
+160/481 Test  #426: BSIMCMG/gummel_n.cir.verify ...................................   Passed    0.05 sec
+        Start  427: BSIMCMG/gummel_n_outvars.cir
+161/481 Test  #427: BSIMCMG/gummel_n_outvars.cir ..................................   Passed    0.41 sec
+        Start  439: BSIMCMG_108/gummel_n_outvars.cir
+162/481 Test  #439: BSIMCMG_108/gummel_n_outvars.cir ..............................   Passed    0.43 sec
+        Start  451: BSIMCMG_110/gummel_n_outvars.cir
+163/481 Test  #451: BSIMCMG_110/gummel_n_outvars.cir ..............................   Passed    0.40 sec
+        Start  463: BSIMCMG_111/gummel_n_outvars.cir
+164/481 Test  #463: BSIMCMG_111/gummel_n_outvars.cir ..............................   Passed    0.41 sec
+        Start  428: BSIMCMG/gummel_n_outvars.cir.verify
+165/481 Test  #428: BSIMCMG/gummel_n_outvars.cir.verify ...........................   Passed    0.06 sec
+        Start  429: BSIMCMG/gummel_p.cir
+166/481 Test  #429: BSIMCMG/gummel_p.cir ..........................................   Passed    0.36 sec
+        Start  441: BSIMCMG_108/gummel_p.cir
+167/481 Test  #441: BSIMCMG_108/gummel_p.cir ......................................   Passed    0.36 sec
+        Start  453: BSIMCMG_110/gummel_p.cir
+168/481 Test  #453: BSIMCMG_110/gummel_p.cir ......................................   Passed    0.35 sec
+        Start  465: BSIMCMG_111/gummel_p.cir
+169/481 Test  #465: BSIMCMG_111/gummel_p.cir ......................................   Passed    0.35 sec
+        Start  430: BSIMCMG/gummel_p.cir.verify
+170/481 Test  #430: BSIMCMG/gummel_p.cir.verify ...................................   Passed    0.05 sec
+        Start  431: BSIMCMG/inverter_transient.cir
+171/481 Test  #431: BSIMCMG/inverter_transient.cir ................................   Passed    0.67 sec
+        Start  446: BSIMCMG_108/inverter_transient.cir
+172/481 Test  #446: BSIMCMG_108/inverter_transient.cir ............................   Passed    0.71 sec
+        Start  457: BSIMCMG_110/inverter_transient.cir
+173/481 Test  #457: BSIMCMG_110/inverter_transient.cir ............................   Passed    0.61 sec
+        Start  470: BSIMCMG_111/inverter_transient.cir
+174/481 Test  #470: BSIMCMG_111/inverter_transient.cir ............................   Passed    0.65 sec
+        Start  432: BSIMCMG/inverter_transient.cir.verify
+175/481 Test  #432: BSIMCMG/inverter_transient.cir.verify .........................   Passed    0.04 sec
+        Start  435: BSIMCMG_108/gummel_n.cir.verify
+176/481 Test  #435: BSIMCMG_108/gummel_n.cir.verify ...............................   Passed    0.05 sec
+        Start  436: BSIMCMG_108/gummel_n_mult.cir
+177/481 Test  #436: BSIMCMG_108/gummel_n_mult.cir .................................   Passed    0.41 sec
+        Start  437: BSIMCMG_108/gummel_n_mult.cir.gen_gs
+178/481 Test  #437: BSIMCMG_108/gummel_n_mult.cir.gen_gs ..........................   Passed    0.02 sec
+        Start  438: BSIMCMG_108/gummel_n_mult.cir.verify
+179/481 Test  #438: BSIMCMG_108/gummel_n_mult.cir.verify ..........................   Passed    0.07 sec
+        Start  440: BSIMCMG_108/gummel_n_outvars.cir.verify
+180/481 Test  #440: BSIMCMG_108/gummel_n_outvars.cir.verify .......................   Passed    0.06 sec
+        Start  442: BSIMCMG_108/gummel_p.cir.verify
+181/481 Test  #442: BSIMCMG_108/gummel_p.cir.verify ...............................   Passed    0.05 sec
+        Start  443: BSIMCMG_108/gummel_p_mult.cir
+182/481 Test  #443: BSIMCMG_108/gummel_p_mult.cir .................................   Passed    0.41 sec
+        Start  444: BSIMCMG_108/gummel_p_mult.cir.gen_gs
+183/481 Test  #444: BSIMCMG_108/gummel_p_mult.cir.gen_gs ..........................   Passed    0.02 sec
+        Start  445: BSIMCMG_108/gummel_p_mult.cir.verify
+184/481 Test  #445: BSIMCMG_108/gummel_p_mult.cir.verify ..........................   Passed    0.07 sec
+        Start  447: BSIMCMG_108/inverter_transient.cir.verify
+185/481 Test  #447: BSIMCMG_108/inverter_transient.cir.verify .....................   Passed    0.04 sec
+        Start  450: BSIMCMG_110/gummel_n.cir.verify
+186/481 Test  #450: BSIMCMG_110/gummel_n.cir.verify ...............................   Passed    0.05 sec
+        Start  452: BSIMCMG_110/gummel_n_outvars.cir.verify
+187/481 Test  #452: BSIMCMG_110/gummel_n_outvars.cir.verify .......................   Passed    0.07 sec
+        Start  454: BSIMCMG_110/gummel_p.cir.verify
+188/481 Test  #454: BSIMCMG_110/gummel_p.cir.verify ...............................   Passed    0.05 sec
+        Start  455: BSIMCMG_110/gummel_p_outvars.cir
+189/481 Test  #455: BSIMCMG_110/gummel_p_outvars.cir ..............................   Passed    0.40 sec
+        Start  468: BSIMCMG_111/gummel_p_outvars.cir
+190/481 Test  #468: BSIMCMG_111/gummel_p_outvars.cir ..............................   Passed    0.41 sec
+        Start  456: BSIMCMG_110/gummel_p_outvars.cir.verify
+191/481 Test  #456: BSIMCMG_110/gummel_p_outvars.cir.verify .......................   Passed    0.07 sec
+        Start  458: BSIMCMG_110/inverter_transient.cir.verify
+192/481 Test  #458: BSIMCMG_110/inverter_transient.cir.verify .....................   Passed    0.04 sec
+        Start  461: BSIMCMG_111/gummel_n.cir.verify
+193/481 Test  #461: BSIMCMG_111/gummel_n.cir.verify ...............................   Passed    0.05 sec
+        Start  462: BSIMCMG_111/gummel_n_m6.cir.sh
+194/481 Test  #462: BSIMCMG_111/gummel_n_m6.cir.sh ................................   Passed    0.89 sec
+        Start  464: BSIMCMG_111/gummel_n_outvars.cir.verify
+195/481 Test  #464: BSIMCMG_111/gummel_n_outvars.cir.verify .......................   Passed    0.07 sec
+        Start  466: BSIMCMG_111/gummel_p.cir.verify
+196/481 Test  #466: BSIMCMG_111/gummel_p.cir.verify ...............................   Passed    0.05 sec
+        Start  467: BSIMCMG_111/gummel_p_m6.cir.sh
+197/481 Test  #467: BSIMCMG_111/gummel_p_m6.cir.sh ................................   Passed    0.88 sec
+        Start  469: BSIMCMG_111/gummel_p_outvars.cir.verify
+198/481 Test  #469: BSIMCMG_111/gummel_p_outvars.cir.verify .......................   Passed    0.07 sec
+        Start  471: BSIMCMG_111/inverter_transient.cir.verify
+199/481 Test  #471: BSIMCMG_111/inverter_transient.cir.verify .....................   Passed    0.03 sec
+        Start  472: BSIMSOI3/b3soiTranDefaults.cir
+200/481 Test  #472: BSIMSOI3/b3soiTranDefaults.cir ................................   Passed    0.29 sec
+        Start  473: BSIMSOI3/b3soiTranDefaults.cir.verify
+201/481 Test  #473: BSIMSOI3/b3soiTranDefaults.cir.verify .........................   Passed    0.03 sec
+        Start  474: BSIMSOI3/b3soiTranDefaultsNoGminScaling.cir
+202/481 Test  #474: BSIMSOI3/b3soiTranDefaultsNoGminScaling.cir ...................   Passed    0.28 sec
+        Start  475: BSIMSOI3/b3soiTranDefaultsNoGminScaling.cir.verify
+203/481 Test  #475: BSIMSOI3/b3soiTranDefaultsNoGminScaling.cir.verify ............   Passed    0.03 sec
+        Start  476: BSIMSOI3/b3soiTranDefaultsNoVoltLim.cir
+204/481 Test  #476: BSIMSOI3/b3soiTranDefaultsNoVoltLim.cir .......................   Passed    0.27 sec
+        Start  477: BSIMSOI3/b3soiTranDefaultsNoVoltLim.cir.verify
+205/481 Test  #477: BSIMSOI3/b3soiTranDefaultsNoVoltLim.cir.verify ................   Passed    0.03 sec
+        Start  478: BSIMSOI3/dcSweep.cir
+206/481 Test  #478: BSIMSOI3/dcSweep.cir ..........................................   Passed    0.29 sec
+        Start  479: BSIMSOI3/dcSweep.cir.verify
+207/481 Test  #479: BSIMSOI3/dcSweep.cir.verify ...................................   Passed    0.03 sec
+        Start  480: BSIMSOI3/dcSweepNoGminScaling.cir
+208/481 Test  #480: BSIMSOI3/dcSweepNoGminScaling.cir .............................   Passed    0.28 sec
+        Start  481: BSIMSOI3/dcSweepNoGminScaling.cir.verify
+209/481 Test  #481: BSIMSOI3/dcSweepNoGminScaling.cir.verify ......................   Passed    0.03 sec
+        Start  482: BSIMSOI3/dcSweepNoVoltLim.cir
+210/481 Test  #482: BSIMSOI3/dcSweepNoVoltLim.cir .................................   Passed    0.28 sec
+        Start  483: BSIMSOI3/dcSweepNoVoltLim.cir.verify
+211/481 Test  #483: BSIMSOI3/dcSweepNoVoltLim.cir.verify ..........................   Passed    0.03 sec
+        Start  916: Certification_Tests/BUG_573/userOneD.cir
+212/481 Test  #916: Certification_Tests/BUG_573/userOneD.cir ......................   Passed    0.31 sec
+        Start 1252: CircuitSim90/MOS2_LARGE/mem_plus.cir
+213/481 Test #1252: CircuitSim90/MOS2_LARGE/mem_plus.cir ..........................   Passed   13.07 sec
+        Start 1253: CircuitSim90/MOS2_LARGE/mem_plus.cir.verify
+214/481 Test #1253: CircuitSim90/MOS2_LARGE/mem_plus.cir.verify ...................   Passed    0.15 sec
+        Start 2018: MPDE/invert1.cir.sh
+215/481 Test #2018: MPDE/invert1.cir.sh ...........................................   Passed    0.99 sec
+        Start 2019: MPDE/sandler24.cir.sh
+216/481 Test #2019: MPDE/sandler24.cir.sh .........................................   Passed    0.80 sec
+        Start 2044: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise1.cir.sh
+217/481 Test #2044: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise1.cir.sh .......   Passed    0.82 sec
+        Start 2045: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise2.cir.sh
+218/481 Test #2045: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise2.cir.sh .......   Passed    0.82 sec
+        Start 2046: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise3.cir.sh
+219/481 Test #2046: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise3.cir.sh .......   Passed    0.82 sec
+        Start 2047: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise4.cir.sh
+220/481 Test #2047: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p61_noise4.cir.sh .......   Passed    0.82 sec
+        Start 2048: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise1.cir.sh
+221/481 Test #2048: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise1.cir.sh .......   Passed    0.81 sec
+        Start 2049: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise2.cir.sh
+222/481 Test #2049: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise2.cir.sh .......   Passed    0.81 sec
+        Start 2050: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise3.cir.sh
+223/481 Test #2050: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise3.cir.sh .......   Passed    0.81 sec
+        Start 2051: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise4.cir.sh
+224/481 Test #2051: MULTIPLICITY_FACTOR/BSIM4_noise/bsim_4p70_noise4.cir.sh .......   Passed    0.78 sec
+        Start 2052: MULTIPLICITY_FACTOR/BSIM4_noise/gain-stage1-bsim4p7.cir.sh
+225/481 Test #2052: MULTIPLICITY_FACTOR/BSIM4_noise/gain-stage1-bsim4p7.cir.sh ....   Passed    0.67 sec
+        Start 2082: Message/Device/Device_BSIM3SOI_WLwarning.cir.sh
+226/481 Test #2082: Message/Device/Device_BSIM3SOI_WLwarning.cir.sh ...............   Passed    0.33 sec
+        Start 2123: Message/Input/SAMPLING_setAnalysisParams.cir.sh
+227/481 Test #2123: Message/Input/SAMPLING_setAnalysisParams.cir.sh ...............   Passed    0.70 sec
+        Start 2145: NEURON/CG_Syn_TEST_1Pre_1Post_01.cir
+228/481 Test #2145: NEURON/CG_Syn_TEST_1Pre_1Post_01.cir ..........................   Passed    0.73 sec
+        Start 2146: NEURON/CG_Syn_TEST_1Pre_1Post_01.cir.verify
+229/481 Test #2146: NEURON/CG_Syn_TEST_1Pre_1Post_01.cir.verify ...................   Passed    1.24 sec
+        Start 2147: NEURON/CS_Cable.cir
+230/481 Test #2147: NEURON/CS_Cable.cir ...........................................   Passed    0.38 sec
+        Start 2148: NEURON/CS_Cable.cir.verify
+231/481 Test #2148: NEURON/CS_Cable.cir.verify ....................................   Passed    0.03 sec
+        Start 2149: NEURON/CS_Patch.cir
+232/481 Test #2149: NEURON/CS_Patch.cir ...........................................   Passed    0.25 sec
+        Start 2150: NEURON/CS_Patch.cir.verify
+233/481 Test #2150: NEURON/CS_Patch.cir.verify ....................................   Passed    0.03 sec
+        Start 2151: NEURON/Default_Cable.cir
+234/481 Test #2151: NEURON/Default_Cable.cir ......................................   Passed    0.26 sec
+        Start 2152: NEURON/Default_Cable.cir.verify
+235/481 Test #2152: NEURON/Default_Cable.cir.verify ...............................   Passed    0.03 sec
+        Start 2153: NEURON/HH_Cable.cir
+236/481 Test #2153: NEURON/HH_Cable.cir ...........................................   Passed    0.37 sec
+        Start 2154: NEURON/HH_Cable.cir.verify
+237/481 Test #2154: NEURON/HH_Cable.cir.verify ....................................   Passed    0.04 sec
+        Start 2155: NEURON/HH_Patch.cir
+238/481 Test #2155: NEURON/HH_Patch.cir ...........................................   Passed    0.25 sec
+        Start 2156: NEURON/HH_Patch.cir.verify
+239/481 Test #2156: NEURON/HH_Patch.cir.verify ....................................   Passed    0.03 sec
+        Start 2157: NEURON/HHgating-level1.cir.sh
+240/481 Test #2157: NEURON/HHgating-level1.cir.sh .................................   Passed    0.30 sec
+        Start 2158: NEURON/Neuron9.cir
+241/481 Test #2158: NEURON/Neuron9.cir ............................................   Passed    0.27 sec
+        Start 2159: NEURON/Neuron9.cir.verify
+242/481 Test #2159: NEURON/Neuron9.cir.verify .....................................   Passed    0.03 sec
+        Start 2160: NEURON/dlambda.cir
+243/481 Test #2160: NEURON/dlambda.cir ............................................   Passed    0.27 sec
+        Start 2161: NEURON/dlambda.cir.verify
+244/481 Test #2161: NEURON/dlambda.cir.verify .....................................   Passed    0.28 sec
+        Start 2162: NEURON/passivePatch-level1.cir.sh
+245/481 Test #2162: NEURON/passivePatch-level1.cir.sh .............................   Passed    0.30 sec
+        Start 2163: NEURON/passivePatch-level6.cir.sh
+246/481 Test #2163: NEURON/passivePatch-level6.cir.sh .............................   Passed    0.30 sec
+        Start 2164: NEURON/rallpack1-1000level1s.cir
+247/481 Test #2164: NEURON/rallpack1-1000level1s.cir ..............................   Passed    0.65 sec
+        Start 2165: NEURON/rallpack1-1000level1s.cir.verify
+248/481 Test #2165: NEURON/rallpack1-1000level1s.cir.verify .......................   Passed    0.26 sec
+        Start 2166: NEURON/rallpack1.cir
+249/481 Test #2166: NEURON/rallpack1.cir ..........................................   Passed    0.34 sec
+        Start 2167: NEURON/rallpack1.cir.verify
+250/481 Test #2167: NEURON/rallpack1.cir.verify ...................................   Passed    0.26 sec
+        Start 2168: NEURON/rallpack2-level1neuron.cir
+251/481 Test #2168: NEURON/rallpack2-level1neuron.cir .............................   Passed    0.60 sec
+        Start 2169: NEURON/rallpack2-level1neuron.cir.verify
+252/481 Test #2169: NEURON/rallpack2-level1neuron.cir.verify ......................   Passed    0.24 sec
+        Start 2170: NEURON/rallpack2.cir
+253/481 Test #2170: NEURON/rallpack2.cir ..........................................   Passed    0.37 sec
+        Start 2171: NEURON/rallpack2.cir.verify
+254/481 Test #2171: NEURON/rallpack2.cir.verify ...................................   Passed    0.25 sec
+        Start 2176: NEURON/synapseDCOP-level4.cir
+255/481 Test #2176: NEURON/synapseDCOP-level4.cir .................................   Passed    0.25 sec
+        Start 2177: NEURON/synapseDCOP-level4.cir.verify
+256/481 Test #2177: NEURON/synapseDCOP-level4.cir.verify ..........................   Passed    0.03 sec
+        Start 2178: NEURON/synapticCurrent-level3.cir.sh
+257/481 Test #2178: NEURON/synapticCurrent-level3.cir.sh ..........................   Passed    0.30 sec
+        Start 2179: NEURON/synapticCurrent-level4.cir.sh
+258/481 Test #2179: NEURON/synapticCurrent-level4.cir.sh ..........................   Passed    0.30 sec
+        Start 2255: Output/AC-SENS/ac-sens-csv.cir.sh
+259/481 Test #2255: Output/AC-SENS/ac-sens-csv.cir.sh .............................   Passed    0.33 sec
+        Start 2256: Output/AC-SENS/ac-sens-formats-default-to-prn.cir.sh
+260/481 Test #2256: Output/AC-SENS/ac-sens-formats-default-to-prn.cir.sh ..........   Passed    0.35 sec
+        Start 2257: Output/AC-SENS/ac-sens-no-headerfooter.cir.sh
+261/481 Test #2257: Output/AC-SENS/ac-sens-no-headerfooter.cir.sh .................   Passed    0.29 sec
+        Start 2258: Output/AC-SENS/ac-sens-phase-in-radians.cir.sh
+262/481 Test #2258: Output/AC-SENS/ac-sens-phase-in-radians.cir.sh ................   Passed    0.29 sec
+        Start 2259: Output/AC-SENS/ac-sens-prn-noindex.cir.sh
+263/481 Test #2259: Output/AC-SENS/ac-sens-prn-noindex.cir.sh .....................   Passed    0.29 sec
+        Start 2260: Output/AC-SENS/ac-sens-prn.cir.sh
+264/481 Test #2260: Output/AC-SENS/ac-sens-prn.cir.sh .............................   Passed    0.31 sec
+        Start 2261: Output/AC-SENS/ac-sens-raw-override-ascii.cir.sh
+265/481 Test #2261: Output/AC-SENS/ac-sens-raw-override-ascii.cir.sh ..............   Passed    0.36 sec
+        Start 2262: Output/AC-SENS/ac-sens-step-csv.cir.sh
+266/481 Test #2262: Output/AC-SENS/ac-sens-step-csv.cir.sh ........................   Passed    0.32 sec
+        Start 2263: Output/AC-SENS/ac-sens-step-gnuplot.cir.sh
+267/481 Test #2263: Output/AC-SENS/ac-sens-step-gnuplot.cir.sh ....................   Passed    0.34 sec
+        Start 2265: Output/AC-SENS/ac-sens-stepnum-col.cir.sh
+268/481 Test #2265: Output/AC-SENS/ac-sens-stepnum-col.cir.sh .....................   Passed    0.37 sec
+        Start 2312: Output/MPDE/mpde-probe-defaults-to-prn.cir.sh
+269/481 Test #2312: Output/MPDE/mpde-probe-defaults-to-prn.cir.sh .................   Passed    4.41 sec
+        Start 2313: Output/MPDE/mpde-raw-defaults-to-prn.cir.sh
+270/481 Test #2313: Output/MPDE/mpde-raw-defaults-to-prn.cir.sh ...................   Passed    4.43 sec
+        Start 2314: Output/MPDE/mpde-raw-override-ascii.cir.sh
+271/481 Test #2314: Output/MPDE/mpde-raw-override-ascii.cir.sh ....................   Passed    0.39 sec
+        Start 2336: Output/SENS/sens-csv.cir.sh
+272/481 Test #2336: Output/SENS/sens-csv.cir.sh ...................................   Passed    0.29 sec
+        Start 2337: Output/SENS/sens-gnuplot.cir.sh
+273/481 Test #2337: Output/SENS/sens-gnuplot.cir.sh ...............................   Passed    0.29 sec
+        Start 2338: Output/SENS/sens-noindex.cir.sh
+274/481 Test #2338: Output/SENS/sens-noindex.cir.sh ...............................   Passed    0.28 sec
+        Start 2339: Output/SENS/sens-prn.cir.sh
+275/481 Test #2339: Output/SENS/sens-prn.cir.sh ...................................   Passed    0.32 sec
+        Start 2340: Output/SENS/sens-step-csv.cir.sh
+276/481 Test #2340: Output/SENS/sens-step-csv.cir.sh ..............................   Passed    0.28 sec
+        Start 2341: Output/SENS/sens-step-gnuplot.cir.sh
+277/481 Test #2341: Output/SENS/sens-step-gnuplot.cir.sh ..........................   Passed    0.31 sec
+        Start 2342: Output/SENS/sens-step-prn.cir.sh
+278/481 Test #2342: Output/SENS/sens-step-prn.cir.sh ..............................   Passed    0.32 sec
+        Start 2344: Output/SENS/sens-stepnum-col.cir.sh
+279/481 Test #2344: Output/SENS/sens-stepnum-col.cir.sh ...........................   Passed    0.37 sec
+        Start 2346: Output/SENS/sens-tranadjoint-csv.cir.sh
+280/481 Test #2346: Output/SENS/sens-tranadjoint-csv.cir.sh .......................   Passed    0.28 sec
+        Start 2347: Output/SENS/sens-tranadjoint-noindex.cir.sh
+281/481 Test #2347: Output/SENS/sens-tranadjoint-noindex.cir.sh ...................   Passed    0.28 sec
+        Start 2349: Output/SENS/sens-tranadjoint-unsupportedProbeFormat.cir.sh
+282/481 Test #2349: Output/SENS/sens-tranadjoint-unsupportedProbeFormat.cir.sh ....   Passed    0.30 sec
+        Start 2350: Output/SENS/sens-tranadjoint-unsupportedRawFormat.cir.sh
+283/481 Test #2350: Output/SENS/sens-tranadjoint-unsupportedRawFormat.cir.sh ......   Passed    0.30 sec
+        Start 2572: PDE_1D_BJT/gilbert_cell_pde_four.cir
+284/481 Test #2572: PDE_1D_BJT/gilbert_cell_pde_four.cir ..........................   Passed    4.47 sec
+        Start 2573: PDE_1D_BJT/gilbert_cell_pde_four.cir.verify
+285/481 Test #2573: PDE_1D_BJT/gilbert_cell_pde_four.cir.verify ...................   Passed    0.03 sec
+        Start 2574: PDE_1D_BJT/npn_bjt_pde.cir
+286/481 Test #2574: PDE_1D_BJT/npn_bjt_pde.cir ....................................   Passed    1.79 sec
+        Start 2575: PDE_1D_BJT/npn_bjt_pde.cir.verify
+287/481 Test #2575: PDE_1D_BJT/npn_bjt_pde.cir.verify .............................   Passed    0.04 sec
+        Start 2576: PDE_1D_BJT/npn_bjt_pde_35C.cir
+288/481 Test #2576: PDE_1D_BJT/npn_bjt_pde_35C.cir ................................   Passed    2.49 sec
+        Start 2577: PDE_1D_BJT/npn_bjt_pde_35C.cir.verify
+289/481 Test #2577: PDE_1D_BJT/npn_bjt_pde_35C.cir.verify .........................   Passed    0.04 sec
+        Start 2578: PDE_1D_BJT/ramp_test1_pde.cir
+290/481 Test #2578: PDE_1D_BJT/ramp_test1_pde.cir .................................   Passed    1.12 sec
+        Start 2579: PDE_1D_BJT/ramp_test1_pde.cir.verify
+291/481 Test #2579: PDE_1D_BJT/ramp_test1_pde.cir.verify ..........................   Passed    0.03 sec
+        Start 2580: PDE_1D_BJT/ramp_test1_pde_homotopy.cir
+292/481 Test #2580: PDE_1D_BJT/ramp_test1_pde_homotopy.cir ........................   Passed    0.77 sec
+        Start 2581: PDE_1D_BJT/ramp_test1_pde_homotopy.cir.verify
+293/481 Test #2581: PDE_1D_BJT/ramp_test1_pde_homotopy.cir.verify .................   Passed    0.03 sec
+        Start 2583: PDE_1D_DIODE/bug978son.cir
+294/481 Test #2583: PDE_1D_DIODE/bug978son.cir ....................................   Passed    0.37 sec
+        Start 2584: PDE_1D_DIODE/bug978son.cir.verify
+295/481 Test #2584: PDE_1D_DIODE/bug978son.cir.verify .............................   Passed    0.03 sec
+        Start 2585: PDE_1D_DIODE/diopde.cir
+296/481 Test #2585: PDE_1D_DIODE/diopde.cir .......................................   Passed    0.36 sec
+        Start 2586: PDE_1D_DIODE/diopde.cir.verify
+297/481 Test #2586: PDE_1D_DIODE/diopde.cir.verify ................................   Passed    0.03 sec
+        Start 2587: PDE_1D_TRAN/userOneD.cir
+298/481 Test #2587: PDE_1D_TRAN/userOneD.cir ......................................   Passed    0.30 sec
+        Start 2588: PDE_1D_TRAN/userOneD.cir.verify
+299/481 Test #2588: PDE_1D_TRAN/userOneD.cir.verify ...............................   Passed    0.03 sec
+        Start 2589: PDE_2D_BJT/cartbjt2.cir
+300/481 Test #2589: PDE_2D_BJT/cartbjt2.cir .......................................   Passed    2.88 sec
+        Start 2590: PDE_2D_BJT/cartbjt2.cir.verify
+301/481 Test #2590: PDE_2D_BJT/cartbjt2.cir.verify ................................   Passed    0.03 sec
+        Start 2591: PDE_2D_BJT/cartbjt3.cir
+302/481 Test #2591: PDE_2D_BJT/cartbjt3.cir .......................................   Passed    1.41 sec
+        Start 2592: PDE_2D_BJT/cartbjt3.cir.verify
+303/481 Test #2592: PDE_2D_BJT/cartbjt3.cir.verify ................................   Passed    0.03 sec
+        Start 2595: PDE_2D_NL/pde2D_nl.cir
+304/481 Test #2595: PDE_2D_NL/pde2D_nl.cir ........................................   Passed    0.28 sec
+        Start 2596: PDE_2D_NL/pde2D_nl.cir.verify
+305/481 Test #2596: PDE_2D_NL/pde2D_nl.cir.verify .................................   Passed    0.03 sec
+        Start 2687: POWER_GRID/ErrorMessageTest.cir.sh
+306/481 Test #2687: POWER_GRID/ErrorMessageTest.cir.sh ............................   Passed    0.26 sec
+        Start 2688: POWER_GRID/IEEE_14Bus_GenBusDevice_PQPFormat.cir.sh
+307/481 Test #2688: POWER_GRID/IEEE_14Bus_GenBusDevice_PQPFormat.cir.sh ...........   Passed    0.33 sec
+        Start 2689: POWER_GRID/IEEE_14Bus_PQPFormat.cir.sh
+308/481 Test #2689: POWER_GRID/IEEE_14Bus_PQPFormat.cir.sh ........................   Passed    0.33 sec
+        Start 2690: POWER_GRID/IEEE_14Bus_PQRFormat.cir.sh
+309/481 Test #2690: POWER_GRID/IEEE_14Bus_PQRFormat.cir.sh ........................   Passed    0.33 sec
+        Start 2691: POWER_GRID/IEEE_14Bus_PSTransformer_PQPFormat.cir.sh
+310/481 Test #2691: POWER_GRID/IEEE_14Bus_PSTransformer_PQPFormat.cir.sh ..........   Passed    0.33 sec
+        Start 2692: POWER_GRID/IEEE_30Bus_QLimit_PQPFormat.cir.sh
+311/481 Test #2692: POWER_GRID/IEEE_30Bus_QLimit_PQPFormat.cir.sh .................   Passed    0.33 sec
+        Start 2693: POWER_GRID/IEEE_57Bus_PQPFormat.cir.sh
+312/481 Test #2693: POWER_GRID/IEEE_57Bus_PQPFormat.cir.sh ........................   Passed    0.34 sec
+        Start 2694: POWER_GRID/IEEE_57Bus_QLimit_PQPFormat.cir.sh
+313/481 Test #2694: POWER_GRID/IEEE_57Bus_QLimit_PQPFormat.cir.sh .................   Passed    0.34 sec
+        Start 2695: POWER_GRID/antiWindupLimiter.cir
+314/481 Test #2695: POWER_GRID/antiWindupLimiter.cir ..............................   Passed    0.28 sec
+        Start 2696: POWER_GRID/antiWindupLimiter.cir.verify
+315/481 Test #2696: POWER_GRID/antiWindupLimiter.cir.verify .......................   Passed    0.06 sec
+        Start 2697: POWER_GRID/sixBus_OneGen_BusShunts_IVFormat.cir.sh
+316/481 Test #2697: POWER_GRID/sixBus_OneGen_BusShunts_IVFormat.cir.sh ............   Passed    0.33 sec
+        Start 2698: POWER_GRID/sixBus_OneGen_BusShunts_PQPFormat.cir.sh
+317/481 Test #2698: POWER_GRID/sixBus_OneGen_BusShunts_PQPFormat.cir.sh ...........   Passed    0.33 sec
+        Start 2699: POWER_GRID/sixBus_OneGen_BusShunts_PQRFormat.cir.sh
+318/481 Test #2699: POWER_GRID/sixBus_OneGen_BusShunts_PQRFormat.cir.sh ...........   Passed    0.32 sec
+        Start 2700: POWER_GRID/threeBus_GenBusDevice_PQPFormat.cir.sh
+319/481 Test #2700: POWER_GRID/threeBus_GenBusDevice_PQPFormat.cir.sh .............   Passed    0.32 sec
+        Start 2701: POWER_GRID/threeBus_TwoBranch_IVFormat.cir.sh
+320/481 Test #2701: POWER_GRID/threeBus_TwoBranch_IVFormat.cir.sh .................   Passed    0.32 sec
+        Start 2702: POWER_GRID/threeBus_TwoBranch_PQPFormat.cir.sh
+321/481 Test #2702: POWER_GRID/threeBus_TwoBranch_PQPFormat.cir.sh ................   Passed    0.32 sec
+        Start 2703: POWER_GRID/threeBus_TwoBranch_PQRFormat.cir.sh
+322/481 Test #2703: POWER_GRID/threeBus_TwoBranch_PQRFormat.cir.sh ................   Passed    0.33 sec
+        Start 2704: POWER_GRID/twoBus_OneBranch_IVFormat.cir.sh
+323/481 Test #2704: POWER_GRID/twoBus_OneBranch_IVFormat.cir.sh ...................   Passed    0.32 sec
+        Start 2705: POWER_GRID/twoBus_OneBranch_PQPFormat.cir.sh
+324/481 Test #2705: POWER_GRID/twoBus_OneBranch_PQPFormat.cir.sh ..................   Passed    0.32 sec
+        Start 2706: POWER_GRID/twoBus_OneBranch_PQRFormat.cir.sh
+325/481 Test #2706: POWER_GRID/twoBus_OneBranch_PQRFormat.cir.sh ..................   Passed    0.33 sec
+        Start 2707: POWER_GRID/twoBus_PSTransformer_IVFormat.cir.sh
+326/481 Test #2707: POWER_GRID/twoBus_PSTransformer_IVFormat.cir.sh ...............   Passed    0.33 sec
+        Start 2708: POWER_GRID/twoBus_PSTransformer_PQRFormat.cir.sh
+327/481 Test #2708: POWER_GRID/twoBus_PSTransformer_PQRFormat.cir.sh ..............   Passed    0.33 sec
+        Start 2709: POWER_GRID/twoBus_TapChangingTransformers_IVFormat.cir.sh
+328/481 Test #2709: POWER_GRID/twoBus_TapChangingTransformers_IVFormat.cir.sh .....   Passed    0.33 sec
+        Start 2710: POWER_GRID/twoBus_TapChangingTransformers_PQRFormat.cir.sh
+329/481 Test #2710: POWER_GRID/twoBus_TapChangingTransformers_PQRFormat.cir.sh ....   Passed    0.33 sec
+        Start 2711: POWER_GRID/twoBus_TransformerBranch_IVFormat.cir.sh
+330/481 Test #2711: POWER_GRID/twoBus_TransformerBranch_IVFormat.cir.sh ...........   Passed    0.32 sec
+        Start 2712: POWER_GRID/twoBus_TransformerBranch_PQPFormat.cir.sh
+331/481 Test #2712: POWER_GRID/twoBus_TransformerBranch_PQPFormat.cir.sh ..........   Passed    0.32 sec
+        Start 2713: POWER_GRID/twoBus_TransformerBranch_PQRFormat.cir.sh
+332/481 Test #2713: POWER_GRID/twoBus_TransformerBranch_PQRFormat.cir.sh ..........   Passed    0.33 sec
+        Start 2714: POWER_GRID/twoBus_TwoParallelBranch_IVFormat.cir.sh
+333/481 Test #2714: POWER_GRID/twoBus_TwoParallelBranch_IVFormat.cir.sh ...........   Passed    0.33 sec
+        Start 2715: POWER_GRID/twoBus_TwoParallelBranch_PQPFormat.cir.sh
+334/481 Test #2715: POWER_GRID/twoBus_TwoParallelBranch_PQPFormat.cir.sh ..........   Passed    0.33 sec
+        Start 2716: POWER_GRID/twoBus_TwoParallelBranch_PQRFormat.cir.sh
+335/481 Test #2716: POWER_GRID/twoBus_TwoParallelBranch_PQRFormat.cir.sh ..........   Passed    0.33 sec
+        Start 2827: SAMPLING/globalParamNormalLHS.cir.sh
+336/481 Test #2827: SAMPLING/globalParamNormalLHS.cir.sh ..........................   Passed    0.73 sec
+        Start 2828: SAMPLING/globalParamNormalMC.cir.sh
+337/481 Test #2828: SAMPLING/globalParamNormalMC.cir.sh ...........................   Passed    1.34 sec
+        Start 2829: SAMPLING/globalParamNormal_OP_MC.cir.sh
+338/481 Test #2829: SAMPLING/globalParamNormal_OP_MC.cir.sh .......................   Passed    1.35 sec
+        Start 2830: SAMPLING/globalParamUniformLHS.cir.sh
+339/481 Test #2830: SAMPLING/globalParamUniformLHS.cir.sh .........................   Passed    0.69 sec
+        Start 2831: SAMPLING/globalParamUniformMC.cir.sh
+340/481 Test #2831: SAMPLING/globalParamUniformMC.cir.sh ..........................   Passed    1.34 sec
+        Start 2832: SAMPLING/mutIndNormal.cir.sh
+341/481 Test #2832: SAMPLING/mutIndNormal.cir.sh ..................................   Passed    1.56 sec
+        Start 2833: SAMPLING/normalParamNormalLHS.cir.sh
+342/481 Test #2833: SAMPLING/normalParamNormalLHS.cir.sh ..........................   Passed    0.70 sec
+        Start 2834: SAMPLING/normalParamNormalMC.cir.sh
+343/481 Test #2834: SAMPLING/normalParamNormalMC.cir.sh ...........................   Passed    1.36 sec
+        Start 2835: SAMPLING/normalParamNormal_OP_MC.cir.sh
+344/481 Test #2835: SAMPLING/normalParamNormal_OP_MC.cir.sh .......................   Passed    1.35 sec
+        Start 2836: SAMPLING/normalParamUniformLHS.cir.sh
+345/481 Test #2836: SAMPLING/normalParamUniformLHS.cir.sh .........................   Passed    0.71 sec
+        Start 2837: SAMPLING/normalParamUniformMC.cir.sh
+346/481 Test #2837: SAMPLING/normalParamUniformMC.cir.sh ..........................   Passed    1.36 sec
+        Start 2839: SAMPLING/simpleNormal.cir.sh
+347/481 Test #2839: SAMPLING/simpleNormal.cir.sh ..................................   Passed    0.88 sec
+        Start 2841: SAMPLING/simpleNormalSeed.cir.sh
+348/481 Test #2841: SAMPLING/simpleNormalSeed.cir.sh ..............................   Passed    0.89 sec
+        Start 2842: SAMPLING/simpleUniform.cir.sh
+349/481 Test #2842: SAMPLING/simpleUniform.cir.sh .................................   Passed    0.89 sec
+        Start 2843: SAMPLING/tran-sampling-measure.cir.sh
+350/481 Test #2843: SAMPLING/tran-sampling-measure.cir.sh .........................   Passed    4.42 sec
+        Start 2844: SAMPLING/tran-sampling-measureLHS.cir.sh
+351/481 Test #2844: SAMPLING/tran-sampling-measureLHS.cir.sh ......................   Passed    4.38 sec
+        Start 2845: SAMPLING/transLineStepDataGlobalPar.cir.sh
+352/481 Test #2845: SAMPLING/transLineStepDataGlobalPar.cir.sh ....................   Passed    0.75 sec
+        Start 2846: SAMPLING/truncatedNormalLHS.cir.sh
+353/481 Test #2846: SAMPLING/truncatedNormalLHS.cir.sh ............................   Passed    0.70 sec
+        Start 2847: SAMPLING/truncatedNormalMC.cir.sh
+354/481 Test #2847: SAMPLING/truncatedNormalMC.cir.sh .............................   Passed    1.33 sec
+        Start 2848: SAMPLING/twoParamsNormalCorrelated.cir.sh
+355/481 Test #2848: SAMPLING/twoParamsNormalCorrelated.cir.sh .....................   Passed    0.53 sec
+        Start 2849: SAMPLING/twoParamsNormalCorrelatedLHS.cir.sh
+356/481 Test #2849: SAMPLING/twoParamsNormalCorrelatedLHS.cir.sh ..................   Passed    0.52 sec
+        Start 2850: SAMPLING2/globalParamLimitLHS.cir.sh
+357/481 Test #2850: SAMPLING2/globalParamLimitLHS.cir.sh ..........................   Passed    0.69 sec
+        Start 2851: SAMPLING2/globalParamNormalLHS.cir.sh
+358/481 Test #2851: SAMPLING2/globalParamNormalLHS.cir.sh .........................   Passed    0.70 sec
+        Start 2852: SAMPLING2/globalParamNormalMC.cir.sh
+359/481 Test #2852: SAMPLING2/globalParamNormalMC.cir.sh ..........................   Passed    1.33 sec
+        Start 2853: SAMPLING2/globalParamNormal_OP_MC.cir.sh
+360/481 Test #2853: SAMPLING2/globalParamNormal_OP_MC.cir.sh ......................   Passed    1.34 sec
+        Start 2854: SAMPLING2/globalParamUniformLHS.cir.sh
+361/481 Test #2854: SAMPLING2/globalParamUniformLHS.cir.sh ........................   Passed    0.71 sec
+        Start 2855: SAMPLING2/globalParamUniformMC.cir.sh
+362/481 Test #2855: SAMPLING2/globalParamUniformMC.cir.sh .........................   Passed    1.35 sec
+        Start 2856: SAMPLING2/multipleAgauss.cir.sh
+363/481 Test #2856: SAMPLING2/multipleAgauss.cir.sh ...............................   Passed    0.88 sec
+        Start 2857: SAMPLING2/normalParamNormalLHS.cir.sh
+364/481 Test #2857: SAMPLING2/normalParamNormalLHS.cir.sh .........................   Passed    0.71 sec
+        Start 2858: SAMPLING2/normalParamNormalMC.cir.sh
+365/481 Test #2858: SAMPLING2/normalParamNormalMC.cir.sh ..........................   Passed    1.34 sec
+        Start 2859: SAMPLING2/normalParamNormal_OP_MC.cir.sh
+366/481 Test #2859: SAMPLING2/normalParamNormal_OP_MC.cir.sh ......................   Passed    1.34 sec
+        Start 2860: SAMPLING2/normalParamUniformLHS.cir.sh
+367/481 Test #2860: SAMPLING2/normalParamUniformLHS.cir.sh ........................   Passed    0.70 sec
+        Start 2861: SAMPLING2/normalParamUniformMC.cir.sh
+368/481 Test #2861: SAMPLING2/normalParamUniformMC.cir.sh .........................   Passed    1.34 sec
+        Start 2862: SAMPLING2/simpleLimit.cir.sh
+369/481 Test #2862: SAMPLING2/simpleLimit.cir.sh ..................................   Passed    0.89 sec
+        Start 2863: SAMPLING2/simpleNormal.cir.sh
+370/481 Test #2863: SAMPLING2/simpleNormal.cir.sh .................................   Passed    0.94 sec
+        Start 2865: SAMPLING2/simpleNormalSeed.cir.sh
+371/481 Test #2865: SAMPLING2/simpleNormalSeed.cir.sh .............................   Passed    0.92 sec
+        Start 2866: SAMPLING2/simpleUniform.cir.sh
+372/481 Test #2866: SAMPLING2/simpleUniform.cir.sh ................................   Passed    0.94 sec
+        Start 2867: SAMPLING2/tran-sampling-measure.cir.sh
+373/481 Test #2867: SAMPLING2/tran-sampling-measure.cir.sh ........................   Passed    4.45 sec
+        Start 2868: SAMPLING2/tran-sampling-measureLHS.cir.sh
+374/481 Test #2868: SAMPLING2/tran-sampling-measureLHS.cir.sh .....................   Passed    4.50 sec
+        Start 2869: SAMPLING2/transLineStepDataGlobalPar.cir.sh
+375/481 Test #2869: SAMPLING2/transLineStepDataGlobalPar.cir.sh ...................   Passed    0.76 sec
+        Start 2870: SAMPLING2/voltageDivider.cir.sh
+376/481 Test #2870: SAMPLING2/voltageDivider.cir.sh ...............................   Passed    0.53 sec
+        Start 2871: SANDLER1/sandler1.cir
+377/481 Test #2871: SANDLER1/sandler1.cir .........................................   Passed    0.27 sec
+        Start 2872: SANDLER1/sandler1.cir.verify
+378/481 Test #2872: SANDLER1/sandler1.cir.verify ..................................   Passed    0.03 sec
+        Start 2873: SANDLER2/sandler2.cir
+379/481 Test #2873: SANDLER2/sandler2.cir .........................................   Passed    0.27 sec
+        Start 2874: SANDLER2/sandler2.cir.verify
+380/481 Test #2874: SANDLER2/sandler2.cir.verify ..................................   Passed    0.03 sec
+        Start 2875: SANDLER21/sandler21.cir
+381/481 Test #2875: SANDLER21/sandler21.cir .......................................   Passed    0.58 sec
+        Start 2876: SANDLER21/sandler21.cir.verify
+382/481 Test #2876: SANDLER21/sandler21.cir.verify ................................   Passed    0.13 sec
+        Start 2877: SANDLER22/sandler22.cir
+383/481 Test #2877: SANDLER22/sandler22.cir .......................................   Passed    0.41 sec
+        Start 2878: SANDLER22/sandler22.cir.verify
+384/481 Test #2878: SANDLER22/sandler22.cir.verify ................................   Passed    0.05 sec
+        Start 2879: SANDLER23/sandler23.cir
+385/481 Test #2879: SANDLER23/sandler23.cir .......................................   Passed    0.34 sec
+        Start 2880: SANDLER23/sandler23.cir.verify
+386/481 Test #2880: SANDLER23/sandler23.cir.verify ................................   Passed    0.09 sec
+        Start 2881: SANDLER24/sandler24.cir
+387/481 Test #2881: SANDLER24/sandler24.cir .......................................   Passed    0.30 sec
+        Start 2882: SANDLER24/sandler24.cir.verify
+388/481 Test #2882: SANDLER24/sandler24.cir.verify ................................   Passed    0.04 sec
+        Start 2883: SANDLER25/sandler25.cir
+389/481 Test #2883: SANDLER25/sandler25.cir .......................................   Passed    0.36 sec
+        Start 2884: SANDLER25/sandler25.cir.verify
+390/481 Test #2884: SANDLER25/sandler25.cir.verify ................................   Passed    0.04 sec
+        Start 2885: SANDLER28/sandler28.cir
+391/481 Test #2885: SANDLER28/sandler28.cir .......................................   Passed    0.34 sec
+        Start 2886: SANDLER28/sandler28.cir.verify
+392/481 Test #2886: SANDLER28/sandler28.cir.verify ................................   Passed    0.03 sec
+        Start 2901: SENS/ampSens.cir.sh
+393/481 Test #2901: SENS/ampSens.cir.sh ...........................................   Passed    0.63 sec
+        Start 2902: SENS/ampSensAdj.cir.sh
+394/481 Test #2902: SENS/ampSensAdj.cir.sh ........................................   Passed    0.61 sec
+        Start 2903: SENS/ampSensAdj_aztec.cir.sh
+395/481 Test #2903: SENS/ampSensAdj_aztec.cir.sh ..................................   Passed    0.61 sec
+        Start 2904: SENS/ampSensAdj_belos.cir.sh
+396/481 Test #2904: SENS/ampSensAdj_belos.cir.sh ..................................   Passed    0.62 sec
+        Start 2905: SENS/ampSens_fbh.cir.sh
+397/481 Test #2905: SENS/ampSens_fbh.cir.sh .......................................   Passed    0.59 sec
+        Start 2906: SENS/ampSens_fbhPNP.cir.sh
+398/481 Test #2906: SENS/ampSens_fbhPNP.cir.sh ....................................   Passed    0.58 sec
+        Start 2907: SENS/ampSens_hicum.cir.sh
+399/481 Test #2907: SENS/ampSens_hicum.cir.sh .....................................   Passed    0.60 sec
+        Start 2908: SENS/ampSens_hicumL0.cir.sh
+400/481 Test #2908: SENS/ampSens_hicumL0.cir.sh ...................................   Passed    0.59 sec
+        Start 2909: SENS/ampSens_mextram.cir.sh
+401/481 Test #2909: SENS/ampSens_mextram.cir.sh ...................................   Passed    0.58 sec
+        Start 2910: SENS/ampSens_mextramPNP.cir.sh
+402/481 Test #2910: SENS/ampSens_mextramPNP.cir.sh ................................   Passed    0.58 sec
+        Start 2911: SENS/ampSens_op.cir.sh
+403/481 Test #2911: SENS/ampSens_op.cir.sh ........................................   Passed    0.55 sec
+        Start 2912: SENS/ampSens_vbic.cir.sh
+404/481 Test #2912: SENS/ampSens_vbic.cir.sh ......................................   Passed    0.60 sec
+        Start 2913: SENS/ampSens_vbicPNPdefault.cir.sh
+405/481 Test #2913: SENS/ampSens_vbicPNPdefault.cir.sh ............................   Passed    0.59 sec
+        Start 2914: SENS/bsim3Inv.cir.sh
+406/481 Test #2914: SENS/bsim3Inv.cir.sh ..........................................   Passed    0.99 sec
+        Start 2915: SENS/bsim4_issue694.cir.sh
+407/481 Test #2915: SENS/bsim4_issue694.cir.sh ....................................   Passed    0.85 sec
+        Start 2916: SENS/bsim6invAdjoint.cir.sh
+408/481 Test #2916: SENS/bsim6invAdjoint.cir.sh ...................................   Passed    0.69 sec
+        Start 2917: SENS/bsim6invAdjointNewFD.cir.sh
+409/481 Test #2917: SENS/bsim6invAdjointNewFD.cir.sh ..............................   Passed    1.07 sec
+        Start 2918: SENS/bug1070son.cir.sh
+410/481 Test #2918: SENS/bug1070son.cir.sh ........................................   Passed    0.69 sec
+        Start 2919: SENS/bug1070sonPart2.cir.sh
+411/481 Test #2919: SENS/bug1070sonPart2.cir.sh ...................................   Passed    0.68 sec
+        Start 2920: SENS/bug1073son.cir.sh
+412/481 Test #2920: SENS/bug1073son.cir.sh ........................................   Passed    0.68 sec
+        Start 2921: SENS/bug1073sonPart2.cir.sh
+413/481 Test #2921: SENS/bug1073sonPart2.cir.sh ...................................   Passed    0.73 sec
+        Start 2922: SENS/bug1092son.cir.sh
+414/481 Test #2922: SENS/bug1092son.cir.sh ........................................   Passed    0.77 sec
+        Start 2923: SENS/bug669.cir.sh
+415/481 Test #2923: SENS/bug669.cir.sh ............................................   Passed    0.57 sec
+        Start 2924: SENS/bug702son.cir.sh
+416/481 Test #2924: SENS/bug702son.cir.sh .........................................   Passed    0.33 sec
+        Start 2925: SENS/bug772son.cir.sh
+417/481 Test #2925: SENS/bug772son.cir.sh .........................................   Passed    0.66 sec
+        Start 2926: SENS/bug797son.cir.sh
+418/481 Test #2926: SENS/bug797son.cir.sh .........................................   Passed    0.59 sec
+        Start 2927: SENS/bugs799_and_842.cir.sh
+419/481 Test #2927: SENS/bugs799_and_842.cir.sh ...................................   Passed    0.60 sec
+        Start 2928: SENS/devLevelParams_ipulse.cir.sh
+420/481 Test #2928: SENS/devLevelParams_ipulse.cir.sh .............................   Passed    0.64 sec
+        Start 2929: SENS/devLevelParams_ipwl.cir.sh
+421/481 Test #2929: SENS/devLevelParams_ipwl.cir.sh ...............................   Passed    0.62 sec
+        Start 2930: SENS/devLevelParams_isffm.cir.sh
+422/481 Test #2930: SENS/devLevelParams_isffm.cir.sh ..............................   Passed    1.44 sec
+        Start 2931: SENS/devLevelParams_isin.cir.sh
+423/481 Test #2931: SENS/devLevelParams_isin.cir.sh ...............................   Passed    0.92 sec
+        Start 2932: SENS/devLevelParams_vpulse.cir.sh
+424/481 Test #2932: SENS/devLevelParams_vpulse.cir.sh .............................   Passed    3.19 sec
+        Start 2933: SENS/devLevelParams_vpwl.cir.sh
+425/481 Test #2933: SENS/devLevelParams_vpwl.cir.sh ...............................   Passed    1.52 sec
+        Start 2934: SENS/devLevelParams_vsffm.cir.sh
+426/481 Test #2934: SENS/devLevelParams_vsffm.cir.sh ..............................   Passed    5.06 sec
+        Start 2935: SENS/devLevelParams_vsin.cir.sh
+427/481 Test #2935: SENS/devLevelParams_vsin.cir.sh ...............................   Passed    0.94 sec
+        Start 2937: SENS/diodeTran.cir.sh
+428/481 Test #2937: SENS/diodeTran.cir.sh .........................................   Passed    0.62 sec
+        Start 2938: SENS/diodeTranAdjoint.cir.sh
+429/481 Test #2938: SENS/diodeTranAdjoint.cir.sh ..................................   Passed    0.83 sec
+        Start 2939: SENS/diodeTranAdjointScaled.cir.sh
+430/481 Test #2939: SENS/diodeTranAdjointScaled.cir.sh ............................   Passed    0.83 sec
+        Start 2940: SENS/diodeTranAdjointTrap.cir.sh
+431/481 Test #2940: SENS/diodeTranAdjointTrap.cir.sh ..............................   Passed    1.16 sec
+        Start 2941: SENS/forceDeviceFD.cir.sh
+432/481 Test #2941: SENS/forceDeviceFD.cir.sh .....................................   Passed    0.59 sec
+        Start 2942: SENS/fullWaveRectDiode.cir.sh
+433/481 Test #2942: SENS/fullWaveRectDiode.cir.sh .................................   Passed    0.57 sec
+        Start 2943: SENS/fullWaveRectDiodeAdjoint.cir.sh
+434/481 Test #2943: SENS/fullWaveRectDiodeAdjoint.cir.sh ..........................   Passed    0.77 sec
+        Start 2945: SENS/gummel_n.cir.sh
+435/481 Test #2945: SENS/gummel_n.cir.sh ..........................................   Passed    1.47 sec
+        Start 2946: SENS/gummel_n_110.cir.sh
+436/481 Test #2946: SENS/gummel_n_110.cir.sh ......................................   Passed    1.61 sec
+        Start 2947: SENS/gummel_n_111.cir.sh
+437/481 Test #2947: SENS/gummel_n_111.cir.sh ......................................   Passed    2.20 sec
+        Start 2948: SENS/gummel_nmos_xyce.cir.sh
+438/481 Test #2948: SENS/gummel_nmos_xyce.cir.sh ..................................   Passed    1.48 sec
+        Start 2949: SENS/gummel_p.cir.sh
+439/481 Test #2949: SENS/gummel_p.cir.sh ..........................................   Passed    1.46 sec
+        Start 2950: SENS/gummel_p_110.cir.sh
+440/481 Test #2950: SENS/gummel_p_110.cir.sh ......................................   Passed    1.60 sec
+        Start 2951: SENS/gummel_p_111.cir.sh
+441/481 Test #2951: SENS/gummel_p_111.cir.sh ......................................   Passed    2.14 sec
+        Start 2952: SENS/gummel_pmos_xyce.cir.sh
+442/481 Test #2952: SENS/gummel_pmos_xyce.cir.sh ..................................   Passed    1.02 sec
+        Start 2953: SENS/improperObjFormat.cir.sh
+443/481 Test #2953: SENS/improperObjFormat.cir.sh .................................   Passed    0.24 sec
+        Start 2954: SENS/improperVectorParams.cir.sh
+444/481 Test #2954: SENS/improperVectorParams.cir.sh ..............................   Passed    0.24 sec
+        Start 2955: SENS/inverter_event.cir.sh
+445/481 Test #2955: SENS/inverter_event.cir.sh ....................................   Passed    1.01 sec
+        Start 2956: SENS/ipulse.cir.sh
+446/481 Test #2956: SENS/ipulse.cir.sh ............................................   Passed    0.62 sec
+        Start 2957: SENS/ipwl.cir.sh
+447/481 Test #2957: SENS/ipwl.cir.sh ..............................................   Passed    0.61 sec
+        Start 2958: SENS/isffm.cir.sh
+448/481 Test #2958: SENS/isffm.cir.sh .............................................   Passed    1.43 sec
+        Start 2959: SENS/isin.cir.sh
+449/481 Test #2959: SENS/isin.cir.sh ..............................................   Passed    0.90 sec
+        Start 2960: SENS/issue729.cir.sh
+450/481 Test #2960: SENS/issue729.cir.sh ..........................................   Passed    0.55 sec
+        Start 2961: SENS/missingParams.cir.sh
+451/481 Test #2961: SENS/missingParams.cir.sh .....................................   Passed    0.24 sec
+        Start 2962: SENS/missingSensFunction.cir.sh
+452/481 Test #2962: SENS/missingSensFunction.cir.sh ...............................   Passed    0.24 sec
+        Start 2965: SENS/psp_asym_nmos_idvg0_SENS.cir.sh
+453/481 Test #2965: SENS/psp_asym_nmos_idvg0_SENS.cir.sh ..........................   Passed    1.57 sec
+        Start 2966: SENS/psp_asym_pmos_idvg0_SENS.cir.sh
+454/481 Test #2966: SENS/psp_asym_pmos_idvg0_SENS.cir.sh ..........................   Passed    1.55 sec
+        Start 2967: SENS/rc1000TranAdjGear.cir.sh
+455/481 Test #2967: SENS/rc1000TranAdjGear.cir.sh .................................   Passed   16.67 sec
+        Start 2968: SENS/res.cir.sh
+456/481 Test #2968: SENS/res.cir.sh ...............................................   Passed    0.31 sec
+        Start 2969: SENS/sensCapGear.cir.sh
+457/481 Test #2969: SENS/sensCapGear.cir.sh .......................................   Passed    0.33 sec
+        Start 2970: SENS/sensCapGearAdj.cir.sh
+458/481 Test #2970: SENS/sensCapGearAdj.cir.sh ....................................   Passed    0.36 sec
+        Start 2971: SENS/sensCapGearAdjNewFD.cir.sh
+459/481 Test #2971: SENS/sensCapGearAdjNewFD.cir.sh ...............................   Passed    0.36 sec
+        Start 2972: SENS/sensCapGearAdjOrder1.cir.sh
+460/481 Test #2972: SENS/sensCapGearAdjOrder1.cir.sh ..............................   Passed    0.69 sec
+        Start 2973: SENS/sensCapTrapAdj.cir.sh
+461/481 Test #2973: SENS/sensCapTrapAdj.cir.sh ....................................   Passed    0.52 sec
+        Start 2974: SENS/sensCapTrapAdjNewFD.cir.sh
+462/481 Test #2974: SENS/sensCapTrapAdjNewFD.cir.sh ...............................   Passed    0.54 sec
+        Start 2975: SENS/sensCapTrapAdjOrder1.cir.sh
+463/481 Test #2975: SENS/sensCapTrapAdjOrder1.cir.sh ..............................   Passed    0.69 sec
+        Start 2976: SENS/sensCapTrapOrder1.cir.sh
+464/481 Test #2976: SENS/sensCapTrapOrder1.cir.sh .................................   Passed    0.52 sec
+        Start 2977: SENS/sensCapTrapOrder2.cir.sh
+465/481 Test #2977: SENS/sensCapTrapOrder2.cir.sh .................................   Passed    0.42 sec
+        Start 2978: SENS/transLineStepDataGlobalPar.cir.sh
+466/481 Test #2978: SENS/transLineStepDataGlobalPar.cir.sh ........................   Passed    0.40 sec
+        Start 2979: SENS/twoObj.cir.sh
+467/481 Test #2979: SENS/twoObj.cir.sh ............................................   Passed    0.61 sec
+        Start 2980: SENS/unsupportedFormat.cir.sh
+468/481 Test #2980: SENS/unsupportedFormat.cir.sh .................................   Passed    0.33 sec
+        Start 2981: SENS/unsupportedRawFormat.cir.sh
+469/481 Test #2981: SENS/unsupportedRawFormat.cir.sh ..............................   Passed    0.32 sec
+        Start 2982: SENS/vpulse.cir.sh
+470/481 Test #2982: SENS/vpulse.cir.sh ............................................   Passed    3.20 sec
+        Start 2983: SENS/vpwl.cir.sh
+471/481 Test #2983: SENS/vpwl.cir.sh ..............................................   Passed    1.48 sec
+        Start 2984: SENS/vsffm.cir.sh
+472/481 Test #2984: SENS/vsffm.cir.sh .............................................   Passed    5.05 sec
+        Start 2985: SENS/vsin.cir.sh
+473/481 Test #2985: SENS/vsin.cir.sh ..............................................   Passed    0.94 sec
+        Start 2986: SENS/vsrcSensTest.cir.sh
+474/481 Test #2986: SENS/vsrcSensTest.cir.sh ......................................   Passed    0.32 sec
+        Start 2987: SENS/vsrcSensTest2.cir.sh
+475/481 Test #2987: SENS/vsrcSensTest2.cir.sh .....................................   Passed    0.32 sec
+        Start 3122: TL1X/TL1X_mpi.cir
+476/481 Test #3122: TL1X/TL1X_mpi.cir .............................................   Passed    0.28 sec
+        Start 3123: TL1X/TL1X_mpi.cir.verify
+477/481 Test #3123: TL1X/TL1X_mpi.cir.verify ......................................   Passed    0.03 sec
+        Start 3255: WAMPDE/OSCILLATOR/lcosc.cir
+478/481 Test #3255: WAMPDE/OSCILLATOR/lcosc.cir ...................................   Passed    0.33 sec
+        Start 3257: WAMPDE/VCO/lcosc.cir
+479/481 Test #3257: WAMPDE/VCO/lcosc.cir ..........................................   Passed    0.35 sec
+        Start 3256: WAMPDE/OSCILLATOR/lcosc.cir.verify
+480/481 Test #3256: WAMPDE/OSCILLATOR/lcosc.cir.verify ............................   Passed    0.03 sec
+        Start 3258: WAMPDE/VCO/lcosc.cir.verify
+481/481 Test #3258: WAMPDE/VCO/lcosc.cir.verify ...................................   Passed    0.24 sec
+
+100% tests passed, 0 tests failed out of 481
+
+Label Time Summary:
+2d                   =   4.66 sec*proc (6 tests)
+FD                   =   5.13 sec*proc (7 tests)
+ac                   =  11.16 sec*proc (25 tests)
+adjoint              =  27.92 sec*proc (18 tests)
+adms                 =  49.10 sec*proc (108 tests)
+admssens             =   2.53 sec*proc (3 tests)
+analytic             =  74.59 sec*proc (52 tests)
+b3soi                =   1.88 sec*proc (12 tests)
+b4soi                =   7.34 sec*proc (24 tests)
+bjt                  =   0.30 sec*proc (2 tests)
+bjt1d                =  10.81 sec*proc (10 tests)
+bjtlev1              =   7.46 sec*proc (24 tests)
+bsim3                =   8.42 sec*proc (24 tests)
+bsim4                =  19.87 sec*proc (77 tests)
+bsim4p82             =   4.58 sec*proc (28 tests)
+bsim6                =  13.22 sec*proc (26 tests)
+bsimcmg              =  22.21 sec*proc (50 tests)
+bsimcmg108           =   3.07 sec*proc (14 tests)
+bsimcmg110           =   5.61 sec*proc (12 tests)
+bsimcmg111           =   8.58 sec*proc (14 tests)
+bsrc                 =   3.88 sec*proc (17 tests)
+bug1070son           =   1.36 sec*proc (2 tests)
+bug1073son           =   1.41 sec*proc (2 tests)
+bug1077son           =   1.91 sec*proc (3 tests)
+bug1080son           =   3.95 sec*proc (7 tests)
+bug1082son           =   0.99 sec*proc (1 test)
+bug1084son           =   0.89 sec*proc (1 test)
+bug1086son           =   0.55 sec*proc (1 test)
+bug1088son           =   3.12 sec*proc (2 tests)
+bug1092son           =   1.36 sec*proc (2 tests)
+bug1166son           =   3.22 sec*proc (6 tests)
+bug1190son           =   5.48 sec*proc (5 tests)
+bug23                =   2.52 sec*proc (2 tests)
+bug27                =   0.83 sec*proc (1 test)
+bug414               =   0.32 sec*proc (2 tests)
+bug669               =   0.57 sec*proc (1 test)
+bug670               =   0.61 sec*proc (1 test)
+bug702son            =   0.33 sec*proc (1 test)
+bug772son            =   0.66 sec*proc (1 test)
+bug774son            =   0.24 sec*proc (1 test)
+bug794son            =   0.55 sec*proc (2 tests)
+bug797               =   0.59 sec*proc (1 test)
+bug807son            =   0.75 sec*proc (1 test)
+bug978son            =   0.39 sec*proc (2 tests)
+capacitor            =  69.35 sec*proc (59 tests)
+circuitsim90         =  13.21 sec*proc (2 tests)
+complex              =   0.26 sec*proc (1 test)
+diode                =  13.89 sec*proc (33 tests)
+direct               =   2.84 sec*proc (4 tests)
+errorexit            =   2.66 sec*proc (8 tests)
+esrc                 =   0.31 sec*proc (1 test)
+event                =   1.01 sec*proc (1 test)
+expression           =  28.50 sec*proc (26 tests)
+fbhhbt               =   1.17 sec*proc (2 tests)
+fsrc                 =   0.31 sec*proc (1 test)
+gear                 =  21.67 sec*proc (11 tests)
+globalparam          =  40.91 sec*proc (26 tests)
+gm                   =   2.68 sec*proc (16 tests)
+gnuplot              =   1.69 sec*proc (5 tests)
+gsrc                 =   0.94 sec*proc (3 tests)
+hicum                =   0.60 sec*proc (1 test)
+hicum_l0             =   0.59 sec*proc (1 test)
+homotopy             =   5.15 sec*proc (6 tests)
+hsrc                 =   0.94 sec*proc (3 tests)
+inductor             =   2.59 sec*proc (7 tests)
+isrc                 =   8.11 sec*proc (11 tests)
+issue115             =   3.10 sec*proc (5 tests)
+issue167             =   5.48 sec*proc (5 tests)
+issue200             =   5.43 sec*proc (5 tests)
+issue28              =   0.26 sec*proc (1 test)
+issue29              =   0.26 sec*proc (1 test)
+issue297             =   1.56 sec*proc (1 test)
+issue372             =   0.97 sec*proc (2 tests)
+issue377             =   1.58 sec*proc (2 tests)
+issue405son          =   0.79 sec*proc (3 tests)
+issue729             =   1.30 sec*proc (2 tests)
+issue82              =   3.10 sec*proc (5 tests)
+issue84              =   5.43 sec*proc (5 tests)
+issue849             =  28.88 sec*proc (17 tests)
+issue910             =  14.33 sec*proc (8 tests)
+large                =  16.67 sec*proc (1 test)
+lhs                  =  15.75 sec*proc (12 tests)
+limit                =   1.65 sec*proc (6 tests)
+mc                   =  26.34 sec*proc (15 tests)
+mextram              =   1.16 sec*proc (2 tests)
+mos1                 =   0.99 sec*proc (1 test)
+mos10                =   1.88 sec*proc (12 tests)
+mos2                 =  13.21 sec*proc (2 tests)
+mos77                =   6.45 sec*proc (19 tests)
+mpde                 =  11.99 sec*proc (9 tests)
+multi                =   0.88 sec*proc (1 test)
+multiplicity         =   8.93 sec*proc (11 tests)
+mutualinductor       =   1.56 sec*proc (1 test)
+neuron               =   9.23 sec*proc (31 tests)
+nightly              = 244.06 sec*proc (469 tests)
+nodeset              =   2.29 sec*proc (7 tests)
+noise                =   7.52 sec*proc (10 tests)
+normal               =  42.60 sec*proc (29 tests)
+notmorethan2procs    =   0.99 sec*proc (1 test)
+notmorethan4procs    =   1.97 sec*proc (2 tests)
+op                   =   7.16 sec*proc (7 tests)
+order1               =   1.38 sec*proc (2 tests)
+order2               =  18.44 sec*proc (5 tests)
+output               =  16.38 sec*proc (26 tests)
+parallel             = 278.20 sec*proc (466 tests)
+param                =   0.26 sec*proc (1 test)
+params               =   0.79 sec*proc (3 tests)
+pde                  =  16.88 sec*proc (23 tests)
+performance          =  13.21 sec*proc (2 tests)
+powergrid            =   9.51 sec*proc (30 tests)
+psp                  =   3.12 sec*proc (2 tests)
+psp103               =   3.12 sec*proc (2 tests)
+resistor             =  76.04 sec*proc (76 tests)
+sampling             =  54.14 sec*proc (41 tests)
+seed                 =   1.81 sec*proc (2 tests)
+sens                 = 109.24 sec*proc (119 tests)
+serial               = 282.95 sec*proc (481 tests)
+splot                =   1.69 sec*proc (5 tests)
+step                 =   3.52 sec*proc (3 tests)
+subckt               =   1.74 sec*proc (6 tests)
+tags                 =   0.31 sec*proc (2 tests)
+tran                 =  17.76 sec*proc (4 tests)
+trap                 =   2.91 sec*proc (4 tests)
+truncated            =   2.03 sec*proc (2 tests)
+undelimexpression    =   0.63 sec*proc (2 tests)
+uniform              =  10.03 sec*proc (10 tests)
+valgrind             =  98.64 sec*proc (185 tests)
+vbic                 =   1.19 sec*proc (2 tests)
+vccs                 =   1.73 sec*proc (9 tests)
+voltageDivider       =   0.53 sec*proc (1 test)
+vsin                 =   1.56 sec*proc (10 tests)
+vsrc                 =  22.58 sec*proc (11 tests)
+wampde               =  10.19 sec*proc (7 tests)
+weekly               =  38.90 sec*proc (12 tests)
+
+Total Test time (real) = 285.36 sec
